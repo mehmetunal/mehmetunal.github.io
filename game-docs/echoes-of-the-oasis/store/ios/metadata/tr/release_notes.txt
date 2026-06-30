@@ -1,0 +1,6 @@
+İlk sürüm yayında!
+
+• Tam oynanabilir vaha simülasyonu
+• 9 sera katı, 9 tohum, günlük ödüller
+• 20 göçebe, görev zinciri, keşif robotları
+• Çevrimdışı oynanır; kayıt cihazınızda kalır

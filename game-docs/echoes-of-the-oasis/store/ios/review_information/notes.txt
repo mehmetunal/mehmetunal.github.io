@@ -1,0 +1,1 @@
+Çevrimdışı çalışan bir vaha simülasyonu. Giriş veya hesap gerekmez. Ödüllü reklamlar yalnızca isteğe bağlı bonus altın içindir. Tüm ilerleme cihazda saklanır; Ayarlar menüsünden yedek dışa/içe aktarılabilir.

@@ -1,0 +1,174 @@
+/* Oyun tanıtım ve destek sayfaları */
+:root {
+  --bg: #07090f;
+  --bg-card: #121824;
+  --text: #e8edf5;
+  --text-muted: #8b95a8;
+  --border: rgba(255, 255, 255, 0.08);
+  --accent: #5eead4;
+  --font: "Outfit", system-ui, -apple-system, sans-serif;
+  --container: min(720px, calc(100% - 2rem));
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.page-header {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-header .inner {
+  width: var(--container);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.page-header a.brand {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.page-header a.brand:hover { color: var(--accent); text-decoration: none; }
+
+.page-main {
+  width: var(--container);
+  margin: 2.5rem auto 4rem;
+}
+
+.game-hero {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 640px) {
+  .game-hero { grid-template-columns: 140px 1fr; }
+}
+
+.game-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 24px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+.game-hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 0 0 1rem;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.desc { margin: 0 0 1.5rem; color: #c5cedb; }
+
+.feature-list {
+  margin: 0 0 1.75rem;
+  padding-left: 1.2rem;
+  color: var(--text-muted);
+}
+
+.feature-list li { margin-bottom: 0.4rem; }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #041014;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background: #7ef0dc;
+  color: #041014;
+}
+
+.screenshot {
+  margin-top: 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  max-width: 280px;
+}
+
+/* Issues / support page */
+.support-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.support-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.support-card p:last-child { margin-bottom: 0; }
+
+.page-footer {
+  width: var(--container);
+  margin: 0 auto 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.page-footer a { color: var(--text-muted); }
+.page-footer a:hover { color: var(--accent); }
+
+.theme-numberfall { --accent: #22d3ee; }
+.theme-echoes { --accent: #2dd4a8; }
+.theme-arrowgo { --accent: #818cf8; }
+
+.theme-numberfall .btn-primary { background: #22d3ee; color: #041014; }
+.theme-echoes .btn-primary { background: #2dd4a8; color: #041014; }
+.theme-arrowgo .btn-primary { background: #818cf8; color: #0f1020; }

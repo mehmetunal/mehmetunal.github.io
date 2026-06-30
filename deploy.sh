@@ -2,7 +2,7 @@
 # mehmetunal.github.io — GitHub Pages kök domain (AdMob app-ads.txt)
 set -euo pipefail
 
-SITE_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+SITE_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO="https://github.com/mehmetunal/mehmetunal.github.io.git"
 
 cd "$SITE_DIR"
@@ -17,11 +17,11 @@ if [[ ! -d .git ]]; then
   git remote add origin "$REPO" 2>/dev/null || git remote set-url origin "$REPO"
 fi
 
-git add app-ads.txt index.html .nojekyll
+git add app-ads.txt index.html store-urls.html css/ assets/ game-docs/ let-the-number-fall/ echoes-of-the-oasis/ arrowgo-ok-bulmaca/ .nojekyll
 if git diff --cached --quiet; then
   echo "Değişiklik yok."
 else
-  git commit -m "Add app-ads.txt for AdMob verification"
+  git commit -m "Mobil oyun tanıtım sitesi ve app-ads.txt"
 fi
 
 echo "Push: git push -u origin main"

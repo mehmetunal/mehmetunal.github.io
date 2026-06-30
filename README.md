@@ -1,18 +1,41 @@
 # mehmetunal.github.io
 
-GitHub Pages **kök domain** — AdMob `app-ads.txt` doğrulaması için.
+GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
-| Dosya | URL |
-|-------|-----|
-| app-ads.txt | https://mehmetunal.github.io/app-ads.txt |
-| Ana sayfa | https://mehmetunal.github.io/ → game-docs yönlendirmesi |
+## URL şeması
 
-## İlk kurulum (bir kez)
+| Alan | Let the Number Fall |
+|------|---------------------|
+| Pazarlama | https://mehmetunal.github.io/let-the-number-fall |
+| Destek | https://mehmetunal.github.io/let-the-number-fall/issues |
+| Gizlilik | https://mehmetunal.github.io/let-the-number-fall/privacy-policy.html |
 
-1. GitHub → **New repository**
-2. Repository name: **`mehmetunal.github.io`** (tam olarak bu isim)
-3. Public, README / .gitignore ekleme
-4. Create repository
+Tüm URL'ler: [store-urls.html](store-urls.html)
+
+## Let the Number Fall
+
+| Alan | URL |
+|------|-----|
+| Marketing | https://mehmetunal.github.io/let-the-number-fall |
+| Support | https://mehmetunal.github.io/let-the-number-fall/issues |
+| Privacy | https://mehmetunal.github.io/let-the-number-fall/privacy-policy.html |
+
+## Echoes of the Oasis
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/echoes-of-the-oasis |
+| Destek | https://mehmetunal.github.io/echoes-of-the-oasis/issues |
+| Gizlilik | https://mehmetunal.github.io/echoes-of-the-oasis/privacy-policy.html |
+
+## ArrowGO — Ok Bulmaca
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/arrowgo-ok-bulmaca |
+| Destek | https://mehmetunal.github.io/arrowgo-ok-bulmaca/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/arrowgo-ok-bulmaca/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/arrowgo-ok-bulmaca/privacy-policy-en.html |
 
 ## Yayınlama
 
@@ -20,21 +43,3 @@ GitHub Pages **kök domain** — AdMob `app-ads.txt` doğrulaması için.
 cd /Users/mehmet/Project/mehmetunal.github.io
 ./deploy.sh
 ```
-
-Veya manuel:
-
-```bash
-git push -u origin main
-```
-
-## GitHub Pages
-
-Repo oluşturulunca Pages otomatik açılır (`main` / root). Birkaç dakika sonra:
-
-```bash
-curl https://mehmetunal.github.io/app-ads.txt
-```
-
-## AdMob
-
-Konsol → **Uygulamalar** → **app-ads.txt** → **Güncellemeleri kontrol et** (24–72 saat sürebilir).

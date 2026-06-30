@@ -3,10 +3,231 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="refresh" content="0; url=https://mehmetunal.github.io/game-docs/" />
-  <title>mehmetunal.github.io</title>
+  <meta name="description" content="Mehmet UNAL tarafından geliştirilen Flutter mobil oyunları: Echoes of the Oasis, Let the Number Fall ve ArrowGO." />
+  <title>Mehmet UNAL — Mobil Oyunlar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <p><a href="https://mehmetunal.github.io/game-docs/">game-docs</a></p>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav-brand" href="#">Mehmet UNAL</a>
+      <a class="nav-link" href="#oyunlar">Oyunlar</a>
+      <a class="nav-link" href="store-urls.html">Mağaza URL'leri</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">Flutter · iOS & Android</p>
+        <h1>Mobil oyunları keşfedin</h1>
+        <p class="hero-lead">
+          Çöl vahasını yönetin, kozmik sayıları birleştirin, ok bulmacalarını çözün.
+          Üç farklı türde, çevrimdışı oynanabilir mobil oyun deneyimi.
+        </p>
+        <a class="btn btn-primary" href="#oyunlar">Oyunları incele</a>
+      </div>
+    </section>
+
+    <section id="oyunlar" class="games-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Oyunlarım</h2>
+          <p>Her biri Flutter ile geliştirilmiş, mağaza yayınına hazır mobil oyun projeleri.</p>
+        </header>
+
+        <article id="echoes-of-the-oasis" class="game-card game-card--echoes">
+          <div class="game-card__visual">
+            <div class="phone-frame">
+              <img
+                src="assets/games/echoes-screenshot.png"
+                alt="Echoes of the Oasis oyun ekranı"
+                width="360"
+                height="640"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="game-card__content">
+            <div class="game-card__head">
+              <img
+                class="game-icon"
+                src="assets/games/echoes-icon.png"
+                alt=""
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <div>
+                <h3>Echoes of the Oasis</h3>
+                <p class="game-tagline">Vahanın Yankıları — Sandbox vaha simülasyonu</p>
+              </div>
+            </div>
+            <p class="game-desc">
+              Çölün ortasında vahanızı büyütün. Sera katlarını yönetin, tohum ekin, hasat yapın
+              ve keşif robotlarınızı çöle gönderin. Göçebelerle ticaret yapın, görevleri
+              tamamlayın ve vahanızın kalbini güçlendirin.
+            </p>
+            <ul class="feature-list">
+              <li>Çevrimdışı idle simülasyon — internet gerekmez</li>
+              <li>9 sera katı, 9 tohum türü, günlük ödüller</li>
+              <li>20 göçebe karakteri ve dallanan diyaloglar</li>
+              <li>Çöl keşfi, görev zinciri ve bulut yedekleme</li>
+            </ul>
+            <div class="game-meta">
+              <span class="badge">Simülasyon</span>
+              <span class="badge">Sandbox</span>
+              <span class="badge">Keşif</span>
+            </div>
+            <div class="game-actions">
+              <span class="store-badge">App Store — Yakında</span>
+              <span class="store-badge">Google Play — Yakında</span>
+              <a class="btn btn-ghost" href="echoes-of-the-oasis/">Tanıtım</a>
+              <a class="btn btn-ghost" href="echoes-of-the-oasis/privacy-policy.html">Gizlilik</a>
+              <a class="btn btn-ghost" href="echoes-of-the-oasis/issues/">Destek</a>
+              <a
+                class="btn btn-ghost"
+                href="https://github.com/mehmetunal/echoes-of-the-oasis--game"
+                target="_blank"
+                rel="noopener noreferrer"
+              >GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article id="let-the-number-fall" class="game-card game-card--reverse game-card--numberfall">
+          <div class="game-card__visual">
+            <div class="phone-frame">
+              <img
+                src="assets/games/number-fall-screenshot.png"
+                alt="Let the Number Fall oyun ekranı"
+                width="360"
+                height="640"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="game-card__content">
+            <div class="game-card__head">
+              <img
+                class="game-icon"
+                src="assets/games/number-fall-icon.png"
+                alt=""
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <div>
+                <h3>Let the Number Fall</h3>
+                <p class="game-tagline">Kozmik sayı birleştirme bulmacası</p>
+              </div>
+            </div>
+            <p class="game-desc">
+              5×7 ızgaraya düşen kozmik sayı bloklarını birleştirin, zincir kombolar
+              kurun ve skorunuzu yıldızlara taşıyın. 2048 ve ötesine ulaşabilir misiniz?
+            </p>
+            <ul class="feature-list">
+              <li>Skora göre artan dinamik zorluk seviyeleri</li>
+              <li>Yüksek birleşmelerden altın ve güçlendiriciler</li>
+              <li>Neon kristal görseller ve akıcı animasyonlar</li>
+              <li>Ödüllü reklam ile devam etme ve bonus altın</li>
+            </ul>
+            <div class="game-meta">
+              <span class="badge">Bulmaca</span>
+              <span class="badge">2048</span>
+              <span class="badge">Combo</span>
+            </div>
+            <div class="game-actions">
+              <span class="store-badge">App Store — Yakında</span>
+              <span class="store-badge">Google Play — Yakında</span>
+              <a class="btn btn-ghost" href="let-the-number-fall/">Marketing</a>
+              <a class="btn btn-ghost" href="let-the-number-fall/privacy-policy.html">Privacy</a>
+              <a class="btn btn-ghost" href="let-the-number-fall/issues/">Support</a>
+              <a
+                class="btn btn-ghost"
+                href="https://github.com/mehmetunal/let-the-number-fall"
+                target="_blank"
+                rel="noopener noreferrer"
+              >GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article id="arrowgo-ok-bulmaca" class="game-card game-card--arrowgo">
+          <div class="game-card__visual">
+            <div class="phone-frame">
+              <img
+                src="assets/games/arrowgo-screenshot.png"
+                alt="ArrowGO oyun görseli"
+                width="360"
+                height="640"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="game-card__content">
+            <div class="game-card__head">
+              <img
+                class="game-icon"
+                src="assets/games/arrowgo-icon.png"
+                alt=""
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <div>
+                <h3>ArrowGO — Ok Bulmaca</h3>
+                <p class="game-tagline">Okları yönlendir, tahtayı temizle</p>
+              </div>
+            </div>
+            <p class="game-desc">
+              Izgara üzerindeki okları doğru sırayla dışarı fırlatarak tahtayı temizleyin.
+              2000 seviye, yıldız sistemi ve giderek zorlaşan bulmacalar sizi bekliyor.
+            </p>
+            <ul class="feature-list">
+              <li>2000 seviye — el yapımı açılış + prosedürel üretim</li>
+              <li>İpucu, geri alma ve ödüllü reklam destekleri</li>
+              <li>Çevrimdışı oynanış, akıcı animasyonlar</li>
+              <li>3×3'ten 8×8'e kadar genişleyen ızgara boyutları</li>
+            </ul>
+            <div class="game-meta">
+              <span class="badge">Hyper-casual</span>
+              <span class="badge">Mantık</span>
+              <span class="badge">Offline</span>
+            </div>
+            <div class="game-actions">
+              <span class="store-badge">App Store — Yakında</span>
+              <span class="store-badge">Google Play — Yakında</span>
+              <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/">Tanıtım</a>
+              <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/privacy-policy.html">Gizlilik</a>
+              <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/issues/">Destek</a>
+              <a
+                class="btn btn-ghost"
+                href="https://github.com/mehmetunal/arrowgo-ok-bulmaca"
+                target="_blank"
+                rel="noopener noreferrer"
+              >GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Mehmet UNAL</p>
+      <p class="footer-note">Flutter ile geliştirilmiş mobil oyunlar</p>
+      <p class="footer-links">
+        <a href="store-urls.html">Mağaza URL'leri</a>
+        ·
+        <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
