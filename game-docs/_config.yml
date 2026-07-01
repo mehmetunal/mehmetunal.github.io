@@ -1,6 +1,0 @@
-# Oyun mağaza ve yasal dokümanları için Jekyll/GitHub Pages yapılandırması.
-theme: jekyll-theme-minimal
-title: game-docs
-description: Mobil oyun mağaza ve yasal dokümanları
-
-markdown: GFM

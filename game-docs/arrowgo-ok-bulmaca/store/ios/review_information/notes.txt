@@ -1,1 +1,0 @@
-Çevrimdışı çalışan bir ok bulmaca oyunu. Giriş veya hesap gerekmez. Ödüllü reklamlar yalnızca isteğe bağlıdır (+5 hamle, 2× coin, ipucu). Tüm ilerleme cihazda saklanır. Kişiselleştirilmiş reklam kullanılmaz (NPA). Test için herhangi bir seviyeyi oynayabilirsiniz; Seviye 1 öğreticidir.

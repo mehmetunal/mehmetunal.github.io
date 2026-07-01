@@ -1,7 +1,0 @@
-ArrowGO - Ok Bulmaca v1.0.0
-
-• 2000 seviyeli ok bulmaca deneyimi
-• Seviye seçim haritası ve yıldız sistemi
-• İpucu, geri alma ve ödüllü reklam desteği
-• Sade minimalist tasarım ve ses efektleri
-• Çevrimdışı oynanış
