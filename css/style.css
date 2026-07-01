@@ -228,6 +228,11 @@ a {
   background: linear-gradient(145deg, #0b0f1e 0%, #101428 100%);
 }
 
+.game-card--crossmath {
+  border-color: rgba(74, 144, 226, 0.2);
+  background: linear-gradient(145deg, #0a1018 0%, #0e1624 100%);
+}
+
 .game-card__head {
   display: flex;
   align-items: center;
@@ -300,6 +305,12 @@ a {
   background: rgba(99, 102, 241, 0.12);
   color: #a5b4fc;
   border-color: rgba(99, 102, 241, 0.22);
+}
+
+.game-card--crossmath .badge {
+  background: rgba(74, 144, 226, 0.12);
+  color: #93c5fd;
+  border-color: rgba(74, 144, 226, 0.22);
 }
 
 .game-actions {

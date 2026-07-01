@@ -165,10 +165,13 @@ a:hover { text-decoration: underline; }
 .page-footer a { color: var(--text-muted); }
 .page-footer a:hover { color: var(--accent); }
 
+.theme-crossmath { --accent: #4a90e2; }
+
 .theme-numberfall { --accent: #22d3ee; }
 .theme-echoes { --accent: #2dd4a8; }
 .theme-arrowgo { --accent: #818cf8; }
 
+.theme-crossmath .btn-primary { background: #4a90e2; color: #ffffff; }
 .theme-numberfall .btn-primary { background: #22d3ee; color: #041014; }
 .theme-echoes .btn-primary { background: #2dd4a8; color: #041014; }
 .theme-arrowgo .btn-primary { background: #818cf8; color: #0f1020; }

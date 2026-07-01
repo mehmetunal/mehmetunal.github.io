@@ -37,6 +37,15 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/arrowgo-ok-bulmaca/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/arrowgo-ok-bulmaca/privacy-policy-en.html |
 
+## CrossMath — Matematik Bulmaca
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/crossmath-number-puzzle |
+| Destek | https://mehmetunal.github.io/crossmath-number-puzzle/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/crossmath-number-puzzle/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/crossmath-number-puzzle/privacy-policy-en.html |
+
 ## Yayınlama
 
 ```bash
