@@ -46,6 +46,17 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/crossmath-number-puzzle/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/crossmath-number-puzzle/privacy-policy-en.html |
 
+## Günlük Asistan — Akıllı Günlük Asistan
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/gunluk-asistan |
+| Destek | https://mehmetunal.github.io/gunluk-asistan/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/gunluk-asistan/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/gunluk-asistan/privacy-policy-en.html |
+| Kullanım Koşulları (TR) | https://mehmetunal.github.io/gunluk-asistan/terms-of-use.html |
+| Terms of Use (EN) | https://mehmetunal.github.io/gunluk-asistan/terms-of-use-en.html |
+
 ## Yayınlama
 
 ```bash
