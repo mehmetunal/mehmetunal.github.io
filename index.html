@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Mehmet UNAL tarafından geliştirilen Flutter mobil oyunları: Echoes of the Oasis, Let the Number Fall, ArrowGO ve CrossMath." />
+  <meta name="description" content="Mehmet UNAL tarafından geliştirilen Flutter mobil oyunları: Block Grid 8x8, Echoes of the Oasis, Let the Number Fall, ArrowGO ve CrossMath." />
   <title>Mehmet UNAL — Mobil Oyunlar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,8 +26,8 @@
         <p class="hero-eyebrow">Flutter · iOS & Android</p>
         <h1>Mobil oyunları keşfedin</h1>
         <p class="hero-lead">
-          Çöl vahasını yönetin, kozmik sayıları birleştirin, ok ve matematik bulmacalarını çözün.
-          Dört farklı türde, çevrimdışı oynanabilir mobil oyun deneyimi.
+          8×8 blok bulmacasından çöl vahasına, kozmik sayılardan ok ve matematik bulmacalarına.
+          Flutter ile geliştirilmiş, çevrimdışı oynanabilir mobil oyun deneyimleri.
         </p>
         <a class="btn btn-primary" href="#oyunlar">Oyunları incele</a>
       </div>
@@ -39,6 +39,65 @@
           <h2>Oyunlarım</h2>
           <p>Her biri Flutter ile geliştirilmiş, mağaza yayınına hazır mobil oyun projeleri.</p>
         </header>
+
+        <article id="block-puzzle" class="game-card game-card--block-puzzle">
+          <div class="game-card__visual">
+            <div class="phone-frame">
+              <img
+                src="assets/games/block-puzzle-screenshot.png"
+                alt="Block Grid 8x8 oyun ekranı"
+                width="360"
+                height="640"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="game-card__content">
+            <div class="game-card__head">
+              <img
+                class="game-icon"
+                src="assets/games/block-puzzle-icon.png"
+                alt=""
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <div>
+                <h3>Block Grid 8x8</h3>
+                <p class="game-tagline">Block Blast tarzı sürükle-bırak bulmaca</p>
+              </div>
+            </div>
+            <p class="game-desc">
+              8×8 tahtaya tepsiden parça sürükleyin. Dolu satır ve sütun yerinde temizlenir;
+              bloklar kaymaz. Kolay / Orta / Zor seviyeler, kombo, altın, rozetler ve günlük ödül.
+            </p>
+            <ul class="feature-list">
+              <li>Tetris değil — yerçekimi ve döndürme yok</li>
+              <li>Good → Amazing övgüleri ve hat temizleme efektleri</li>
+              <li>Türkçe ve İngilizce arayüz</li>
+              <li>AdMob banner, geçiş ve ödüllü reklamlar</li>
+            </ul>
+            <div class="game-meta">
+              <span class="badge">Bulmaca</span>
+              <span class="badge">Block Blast</span>
+              <span class="badge">Offline</span>
+            </div>
+            <div class="game-actions">
+              <span class="store-badge">App Store — İncelemede</span>
+              <span class="store-badge">Google Play — Yakında</span>
+              <a class="btn btn-ghost" href="block-puzzle/">Tanıtım</a>
+              <a class="btn btn-ghost" href="block-puzzle/index-en.html">English</a>
+              <a class="btn btn-ghost" href="block-puzzle/privacy-policy.html">Gizlilik</a>
+              <a class="btn btn-ghost" href="block-puzzle/issues/">Destek</a>
+              <a
+                class="btn btn-ghost"
+                href="https://github.com/mehmetunal/block-puzzle"
+                target="_blank"
+                rel="noopener noreferrer"
+              >GitHub</a>
+            </div>
+          </div>
+        </article>
 
         <article id="echoes-of-the-oasis" class="game-card game-card--echoes">
           <div class="game-card__visual">
@@ -308,7 +367,7 @@
               <li>Hatırlatıcı, alarm, takvim ve özel kategoriler</li>
               <li>Araç, sağlık, finans, abonelik, evcil hayvan modülleri</li>
               <li>PIN / biyometrik kilit ve JSON yedekleme</li>
-              <li>Reklamsız — yerel veri, sunucu yok</li>
+              <li>App open reklamları (NPA) — arka plandan dönüşte</li>
             </ul>
             <div class="game-meta">
               <span class="badge">Üretkenlik</span>

@@ -238,6 +238,11 @@ a {
   background: linear-gradient(145deg, #0a0f18 0%, #0e1522 100%);
 }
 
+.game-card--block-puzzle {
+  border-color: rgba(233, 69, 96, 0.22);
+  background: linear-gradient(145deg, #120a10 0%, #18101a 100%);
+}
+
 .game-card__head {
   display: flex;
   align-items: center;
@@ -322,6 +327,12 @@ a {
   background: rgba(59, 111, 204, 0.12);
   color: #93b4f5;
   border-color: rgba(59, 111, 204, 0.22);
+}
+
+.game-card--block-puzzle .badge {
+  background: rgba(233, 69, 96, 0.12);
+  color: #fda4af;
+  border-color: rgba(233, 69, 96, 0.22);
 }
 
 .game-actions {
