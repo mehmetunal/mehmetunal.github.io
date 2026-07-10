@@ -130,6 +130,14 @@ a:hover { text-decoration: underline; }
   color: #041014;
 }
 
+a.btn {
+  text-decoration: none;
+}
+
+a.btn:hover {
+  text-decoration: none;
+}
+
 .screenshot {
   margin-top: 1rem;
   border-radius: 20px;

@@ -352,6 +352,24 @@ a {
   color: var(--text-muted);
 }
 
+a.store-badge {
+  color: var(--text);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+a.store-badge:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+a.store-badge--appstore {
+  background: rgba(94, 234, 212, 0.12);
+  border-color: rgba(94, 234, 212, 0.28);
+  color: var(--accent);
+}
+
 /* Phone frame */
 
 .phone-frame {
