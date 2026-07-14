@@ -145,6 +145,20 @@ a.btn:hover {
   max-width: 280px;
 }
 
+.screenshot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.screenshot-gallery img {
+  width: 140px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
 /* Issues / support page */
 .support-card {
   background: var(--bg-card);
