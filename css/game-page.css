@@ -180,6 +180,7 @@ a.btn:hover {
 .theme-arrowgo { --accent: #818cf8; }
 .theme-gunluk-asistan { --accent: #3b6fcc; }
 .theme-block-puzzle { --accent: #e94560; }
+.theme-tank-1990 { --accent: #4caf50; }
 
 .theme-crossmath .btn-primary { background: #4a90e2; color: #ffffff; }
 .theme-numberfall .btn-primary { background: #22d3ee; color: #041014; }
@@ -187,3 +188,4 @@ a.btn:hover {
 .theme-arrowgo .btn-primary { background: #818cf8; color: #0f1020; }
 .theme-gunluk-asistan .btn-primary { background: #3b6fcc; color: #ffffff; }
 .theme-block-puzzle .btn-primary { background: #e94560; color: #ffffff; }
+.theme-tank-1990 .btn-primary { background: #4caf50; color: #04120a; }

@@ -12,6 +12,16 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 Tüm URL'ler: [store-urls.html](store-urls.html)
 
+## Tank 1990 Arcade
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/tank-1990 |
+| Marketing (EN) | https://mehmetunal.github.io/tank-1990/index-en.html |
+| Destek | https://mehmetunal.github.io/tank-1990/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/tank-1990/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/tank-1990/privacy-policy-en.html |
+
 ## Let the Number Fall
 
 | Alan | URL |

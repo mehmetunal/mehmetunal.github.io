@@ -17,11 +17,11 @@ if [[ ! -d .git ]]; then
   git remote add origin "$REPO" 2>/dev/null || git remote set-url origin "$REPO"
 fi
 
-git add app-ads.txt index.html store-urls.html css/ assets/ block-puzzle/ let-the-number-fall/ echoes-of-the-oasis/ arrowgo-ok-bulmaca/ crossmath-number-puzzle/ gunluk-asistan/ .nojekyll README.md
+git add app-ads.txt index.html store-urls.html css/ assets/ tank-1990/ block-puzzle/ let-the-number-fall/ echoes-of-the-oasis/ arrowgo-ok-bulmaca/ crossmath-number-puzzle/ gunluk-asistan/ .nojekyll README.md
 if git diff --cached --quiet; then
   echo "Değişiklik yok."
 else
-  git commit -m "Mobil oyun tanıtım sitesi ve app-ads.txt"
+  git commit -m "Add Tank 1990 Arcade marketing, privacy, and support pages"
 fi
 
 echo "Push: git push -u origin main"
