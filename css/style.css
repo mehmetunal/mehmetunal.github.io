@@ -238,6 +238,11 @@ a {
   background: linear-gradient(145deg, #0a0f18 0%, #0e1522 100%);
 }
 
+.game-card--fruit-butcher {
+  border-color: rgba(249, 115, 22, 0.28);
+  background: linear-gradient(145deg, #140e08 0%, #1a120a 100%);
+}
+
 .game-card--block-puzzle {
   border-color: rgba(233, 69, 96, 0.22);
   background: linear-gradient(145deg, #120a10 0%, #18101a 100%);
@@ -332,6 +337,12 @@ a {
   background: rgba(59, 111, 204, 0.12);
   color: #93b4f5;
   border-color: rgba(59, 111, 204, 0.22);
+}
+
+.game-card--fruit-butcher .badge {
+  background: rgba(249, 115, 22, 0.12);
+  color: #fdba74;
+  border-color: rgba(249, 115, 22, 0.22);
 }
 
 .game-card--block-puzzle .badge {
