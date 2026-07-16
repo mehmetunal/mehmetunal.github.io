@@ -238,6 +238,11 @@ a {
   background: linear-gradient(145deg, #0a0f18 0%, #0e1522 100%);
 }
 
+.game-card--zihin-labirenti {
+  border-color: rgba(92, 225, 230, 0.28);
+  background: linear-gradient(145deg, #081214 0%, #0c1a1c 100%);
+}
+
 .game-card--fruit-butcher {
   border-color: rgba(249, 115, 22, 0.28);
   background: linear-gradient(145deg, #140e08 0%, #1a120a 100%);
@@ -337,6 +342,12 @@ a {
   background: rgba(59, 111, 204, 0.12);
   color: #93b4f5;
   border-color: rgba(59, 111, 204, 0.22);
+}
+
+.game-card--zihin-labirenti .badge {
+  background: rgba(92, 225, 230, 0.12);
+  color: #99f6f9;
+  border-color: rgba(92, 225, 230, 0.22);
 }
 
 .game-card--fruit-butcher .badge {

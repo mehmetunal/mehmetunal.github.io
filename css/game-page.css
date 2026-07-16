@@ -196,6 +196,7 @@ a.btn:hover {
 .theme-block-puzzle { --accent: #e94560; }
 .theme-fruit-butcher { --accent: #f97316; }
 .theme-tank-1990 { --accent: #4caf50; }
+.theme-zihin-labirenti { --accent: #5ce1e6; }
 
 .theme-crossmath .btn-primary { background: #4a90e2; color: #ffffff; }
 .theme-numberfall .btn-primary { background: #22d3ee; color: #041014; }
@@ -205,3 +206,4 @@ a.btn:hover {
 .theme-block-puzzle .btn-primary { background: #e94560; color: #ffffff; }
 .theme-fruit-butcher .btn-primary { background: #f97316; color: #140a04; }
 .theme-tank-1990 .btn-primary { background: #4caf50; color: #04120a; }
+.theme-zihin-labirenti .btn-primary { background: #5ce1e6; color: #041214; }

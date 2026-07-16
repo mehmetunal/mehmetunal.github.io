@@ -12,6 +12,16 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 Tüm URL'ler: [store-urls.html](store-urls.html)
 
+## Zihin Labirenti — Mind Labyrinth
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/zihin-labirenti |
+| Marketing (EN) | https://mehmetunal.github.io/zihin-labirenti/index-en.html |
+| Destek | https://mehmetunal.github.io/zihin-labirenti/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/zihin-labirenti/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/zihin-labirenti/privacy-policy-en.html |
+
 ## Fruit Butcher
 
 | Alan | URL |
