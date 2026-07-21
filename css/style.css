@@ -248,7 +248,7 @@ a {
   background: linear-gradient(145deg, #140e08 0%, #1a120a 100%);
 }
 
-.game-card--block-puzzle {
+.game-card--klaro-puzzle {
   border-color: rgba(13, 148, 136, 0.28);
   background: linear-gradient(145deg, #0a1f1f 0%, #0f2a2a 100%);
 }
@@ -356,7 +356,7 @@ a {
   border-color: rgba(249, 115, 22, 0.22);
 }
 
-.game-card--block-puzzle .badge {
+.game-card--klaro-puzzle .badge {
   background: rgba(13, 148, 136, 0.12);
   color: #5eead4;
   border-color: rgba(13, 148, 136, 0.22);

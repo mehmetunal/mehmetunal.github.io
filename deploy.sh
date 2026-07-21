@@ -17,7 +17,7 @@ if [[ ! -d .git ]]; then
   git remote add origin "$REPO" 2>/dev/null || git remote set-url origin "$REPO"
 fi
 
-git add app-ads.txt index.html store-urls.html css/ assets/ fruit-butcher/ tank-1990/ block-puzzle/ let-the-number-fall/ echoes-of-the-oasis/ arrowgo-ok-bulmaca/ crossmath-number-puzzle/ gunluk-asistan/ .nojekyll README.md
+git add app-ads.txt index.html store-urls.html css/ assets/ fruit-butcher/ tank-1990/ klaro-puzzle/ let-the-number-fall/ echoes-of-the-oasis/ arrowgo-ok-bulmaca/ crossmath-number-puzzle/ gunluk-asistan/ .nojekyll README.md
 if git diff --cached --quiet; then
   echo "Değişiklik yok."
 else
