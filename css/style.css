@@ -249,8 +249,8 @@ a {
 }
 
 .game-card--block-puzzle {
-  border-color: rgba(233, 69, 96, 0.22);
-  background: linear-gradient(145deg, #120a10 0%, #18101a 100%);
+  border-color: rgba(13, 148, 136, 0.28);
+  background: linear-gradient(145deg, #0a1f1f 0%, #0f2a2a 100%);
 }
 
 .game-card--tank-1990 {
@@ -357,9 +357,9 @@ a {
 }
 
 .game-card--block-puzzle .badge {
-  background: rgba(233, 69, 96, 0.12);
-  color: #fda4af;
-  border-color: rgba(233, 69, 96, 0.22);
+  background: rgba(13, 148, 136, 0.12);
+  color: #5eead4;
+  border-color: rgba(13, 148, 136, 0.22);
 }
 
 .game-card--tank-1990 .badge {
