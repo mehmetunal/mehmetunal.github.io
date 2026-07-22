@@ -19,15 +19,25 @@
   <p>
     <strong>Zihin Labirenti</strong> (“uygulama”; Android: <code>com.zihinlabirenti.zihin_labirenti</code>,
     iOS: <code>com.zihinlabirenti.zihinLabirenti</code>), Mehmet Ünal tarafından geliştirilen
-    ücretsiz bir mobil bulmaca oyunudur. Tamamen <strong>çevrimdışı</strong> çalışır; kişisel hesap gerektirmez.
+    ücretsiz bir mobil bulmaca oyunudur. Hesap gerektirmez; oyun ilerlemesi cihazınızda saklanır.
   </p>
 
   <h2>Toplanan veriler</h2>
-  <p>Uygulama <strong>kişisel kimlik bilgisi toplamaz</strong>; reklam SDK’sı veya analitik servisi kullanmaz.</p>
+  <p>Uygulama <strong>kişisel kimlik bilgisi toplamaz</strong> ve kendi sunucusuna veri göndermez.</p>
   <ul>
-    <li><strong>Yerel oyun verileri:</strong> İlerleme (seviyeler, yıldızlar, XP, başarımlar, anı parçaları), ayarlar (tema, dil, ses, müzik, bildirim, erişilebilirlik) yalnızca cihazınızda saklanır (SQLite ve SharedPreferences). Sunucuya gönderilmez.</li>
+    <li><strong>Yerel oyun verileri:</strong> İlerleme (seviyeler, yıldızlar, XP, başarımlar, anı parçaları), ayarlar (tema, dil, ses, müzik, bildirim, erişilebilirlik) yalnızca cihazınızda saklanır (SQLite ve SharedPreferences).</li>
     <li><strong>Yerel bildirimler (isteğe bağlı):</strong> Günlük seri hatırlatması için cihaz üzerinde zamanlanır; bildirim içeriği sunucuya gitmez.</li>
   </ul>
+
+  <h2>Reklamlar (Google AdMob)</h2>
+  <p>
+    Uygulama Google AdMob aracılığıyla <strong>geçiş (interstitial)</strong> ve
+    <strong>ödüllü (rewarded)</strong> reklam gösterebilir; banner kullanılmaz.
+    Reklamlar internet bağlantısı gerektirir. Avrupa’da UMP (kullanıcı mesajlaşma platformu)
+    onayı, iOS’ta App Tracking Transparency (ATT) istenebilir.
+    Google’ın reklam ve veri işleme politikaları geçerlidir:
+    <a href="https://policies.google.com/privacy">Google Privacy &amp; Terms</a>.
+  </p>
 
   <h2>Yedekleme</h2>
   <p>
@@ -39,12 +49,13 @@
   <ul>
     <li>Hesap oluşturma, e-posta kaydı veya konum takibi yoktur.</li>
     <li>Kamera, mikrofon veya kişi listesi erişimi talep edilmez.</li>
-    <li>Reklam veya üçüncü taraf analitik SDK’sı yoktur.</li>
+    <li>Kendi analitik SDK’mız yoktur (reklam ölçümü AdMob tarafında olabilir).</li>
   </ul>
 
   <h2>Üçüncü taraf hizmetler</h2>
   <ul>
     <li>Apple App Store / Google Play — dağıtım</li>
+    <li>Google AdMob — reklam gösterimi</li>
   </ul>
 
   <h2>Çocuklar</h2>
@@ -58,7 +69,5 @@
 
   <h2>İletişim</h2>
   <p>Sorularınız için: <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a></p>
-  <p class="muted"><a href="privacy-policy-en.html">English version</a></p>
-  <p><a href="./">← Zihin Labirenti</a> · <a href="issues/">Destek</a></p>
 </body>
 </html>
