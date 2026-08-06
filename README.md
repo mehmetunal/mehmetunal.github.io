@@ -62,7 +62,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/tank-game/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/tank-game/privacy-policy-en.html |
 
-## Let the Number Fall
+## Let the Number Fall 
 
 | Alan | URL |
 |------|-----|
