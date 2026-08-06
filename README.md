@@ -12,6 +12,16 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 Tüm URL'ler: [store-urls.html](store-urls.html)
 
+## Uno Game
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/uno-game |
+| Marketing (EN) | https://mehmetunal.github.io/uno-game/index-en.html |
+| Destek | https://mehmetunal.github.io/uno-game/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/uno-game/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/uno-game/privacy-policy-en.html |
+
 ## Zamkır — Zamanın Kırık Saatleri
 
 | Alan | URL |

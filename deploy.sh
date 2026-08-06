@@ -17,11 +17,32 @@ if [[ ! -d .git ]]; then
   git remote add origin "$REPO" 2>/dev/null || git remote set-url origin "$REPO"
 fi
 
-git add app-ads.txt index.html store-urls.html css/ assets/ fruit-butcher/ tank-1990/ klaro-puzzle/ let-the-number-fall/ echoes-of-the-oasis/ arrowgo-ok-bulmaca/ crossmath-number-puzzle/ gunluk-asistan/ .nojekyll README.md
+git add \
+  app-ads.txt \
+  index.html \
+  store-urls.html \
+  css/ \
+  assets/ \
+  README.md \
+  .nojekyll \
+  uno-game/ \
+  zamkir/ \
+  zihin-labirenti/ \
+  fruit-butcher/ \
+  tank-1990/ \
+  block-puzzle/ \
+  klaro-puzzle/ \
+  let-the-number-fall/ \
+  echoes-of-the-oasis/ \
+  arrowgo-ok-bulmaca/ \
+  crossmath-number-puzzle/ \
+  gunluk-asistan/ \
+  barkaway/
+
 if git diff --cached --quiet; then
   echo "Değişiklik yok."
 else
-  git commit -m "Add Fruit Butcher marketing, privacy, and support pages"
+  git commit -m "Add Uno Game marketing, privacy, and support pages"
 fi
 
 echo "Push: git push -u origin main"
@@ -29,5 +50,5 @@ git push -u origin main
 
 echo ""
 echo "Doğrulama (birkaç dakika sonra):"
+echo "  curl -sI https://mehmetunal.github.io/uno-game/"
 echo "  curl -s https://mehmetunal.github.io/app-ads.txt"
-echo "AdMob: Uygulamalar → app-ads.txt → Güncellemeleri kontrol et"

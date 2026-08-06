@@ -263,6 +263,11 @@ a {
   background: linear-gradient(145deg, #0a120c 0%, #101a12 100%);
 }
 
+.game-card--uno-game {
+  border-color: rgba(201, 162, 39, 0.35);
+  background: linear-gradient(145deg, #1a0a0c 0%, #2a1218 100%);
+}
+
 .game-card__head {
   display: flex;
   align-items: center;
@@ -377,6 +382,12 @@ a {
   background: rgba(76, 175, 80, 0.12);
   color: #a5d6a7;
   border-color: rgba(76, 175, 80, 0.22);
+}
+
+.game-card--uno-game .badge {
+  background: rgba(201, 162, 39, 0.16);
+  color: #f0d78c;
+  border-color: rgba(201, 162, 39, 0.28);
 }
 
 .game-actions {
