@@ -56,11 +56,11 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
-| Pazarlama | https://mehmetunal.github.io/tank-1990 |
-| Marketing (EN) | https://mehmetunal.github.io/tank-1990/index-en.html |
-| Destek | https://mehmetunal.github.io/tank-1990/issues |
-| Gizlilik (TR) | https://mehmetunal.github.io/tank-1990/privacy-policy.html |
-| Privacy (EN) | https://mehmetunal.github.io/tank-1990/privacy-policy-en.html |
+| Pazarlama | https://mehmetunal.github.io/tank-game |
+| Marketing (EN) | https://mehmetunal.github.io/tank-game/index-en.html |
+| Destek | https://mehmetunal.github.io/tank-game/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/tank-game/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/tank-game/privacy-policy-en.html |
 
 ## Let the Number Fall
 

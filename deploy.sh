@@ -29,7 +29,7 @@ git add \
   zamkir/ \
   zihin-labirenti/ \
   fruit-butcher/ \
-  tank-1990/ \
+  tank-game/ \
   block-puzzle/ \
   klaro-puzzle/ \
   let-the-number-fall/ \
