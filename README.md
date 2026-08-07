@@ -4,7 +4,7 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 ## URL şeması
 
-| Alan | Let the Number Fall |
+| Alan | Let the Number Fall |     
 |------|---------------------|
 | Pazarlama | https://mehmetunal.github.io/let-the-number-fall |
 | Destek | https://mehmetunal.github.io/let-the-number-fall/issues |
