@@ -52,7 +52,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/fruit-butcher/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/fruit-butcher/privacy-policy-en.html |
 
-## Tank 1990 Arcade
+## Tank Game
 
 | Alan | URL |
 |------|-----|
