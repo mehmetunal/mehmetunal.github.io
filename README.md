@@ -12,6 +12,16 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 Tüm URL'ler: [store-urls.html](store-urls.html)
 
+## Pis Yedili
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/pis-yedili |
+| Marketing (EN) | https://mehmetunal.github.io/pis-yedili/index-en.html |
+| Destek | https://mehmetunal.github.io/pis-yedili/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/pis-yedili/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/pis-yedili/privacy-policy-en.html |
+
 ## Uno Game
 
 | Alan | URL |

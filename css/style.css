@@ -268,6 +268,11 @@ a {
   background: linear-gradient(145deg, #1a0a0c 0%, #2a1218 100%);
 }
 
+.game-card--pis-yedili {
+  border-color: rgba(28, 154, 100, 0.35);
+  background: linear-gradient(145deg, #062018 0%, #0a402c 55%, #0f5c3d 100%);
+}
+
 .game-card__head {
   display: flex;
   align-items: center;
@@ -388,6 +393,12 @@ a {
   background: rgba(201, 162, 39, 0.16);
   color: #f0d78c;
   border-color: rgba(201, 162, 39, 0.28);
+}
+
+.game-card--pis-yedili .badge {
+  background: rgba(28, 154, 100, 0.16);
+  color: #7ee0b0;
+  border-color: rgba(28, 154, 100, 0.28);
 }
 
 .game-actions {
