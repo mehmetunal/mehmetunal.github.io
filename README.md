@@ -12,6 +12,16 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 Tüm URL'ler: [store-urls.html](store-urls.html)
 
+## Tavla Online
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/tavla-online |
+| Marketing (EN) | https://mehmetunal.github.io/tavla-online/index-en.html |
+| Destek | https://mehmetunal.github.io/tavla-online/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/tavla-online/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/tavla-online/privacy-policy-en.html |
+
 ## Pis Yedili
 
 | Alan | URL |

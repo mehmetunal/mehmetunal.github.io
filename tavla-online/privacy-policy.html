@@ -8,33 +8,72 @@
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; }
     h1 { font-size: 1.5rem; }
     h2 { font-size: 1.1rem; margin-top: 1.5rem; }
-    a { color: #0d9488; }
+    a { color: #b33a3a; }
+    code { font-size: 0.9em; }
     .muted { color: #666; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <h1>Gizlilik Politikası</h1>
   <p class="muted">Son güncelleme: 11 Ağustos 2026</p>
+
   <p>
-    <strong>Tavla Online</strong> (“uygulama”, bundle: <code>com.tavlaonline.tavlaOnline</code>),
-    Mehmet Ünal tarafından geliştirilen çevrimiçi/çevrimdışı tavla oyunudur.
+    <strong>Tavla Online</strong> (“uygulama”, bundle / paket:
+    <code>com.tavlaonline.tavlaOnline</code> / <code>com.tavlaonline.tavla_online</code>),
+    Mehmet Ünal tarafından geliştirilen ücretsiz bir mobil tavla oyunudur.
+    Misafir olarak yerel / bot maçı oynanabilir; online özellikler için kullanıcı adı
+    ile Firebase Auth girişi kullanılır.
   </p>
+
   <h2>Toplanan veriler</h2>
   <ul>
-    <li><strong>Hesap / profil:</strong> Kullanıcı adı, avatar, çip bakiyesi, arkadaşlık ve oyun geçmişi Firebase Authentication / Firestore üzerinde saklanır.</li>
-    <li><strong>Oyun ve sosyal:</strong> Maç durumu, sohbet/emojiler, davetler — uygulama işlevselliği için.</li>
-    <li><strong>Reklamlar (Google AdMob):</strong> Banner, interstitial, ödüllü ve app-open reklamları. AdMob cihaz tanımlayıcıları ve kullanım verisi toplayabilir.</li>
-    <li><strong>Analitik:</strong> Firebase Analytics ile anonim/toplu olaylar.</li>
-    <li><strong>Satın almalar:</strong> Apple / Google mağaza işlemleri; çip ve No-Ads. Ödeme kartı bilgisi uygulamaya gelmez.</li>
-    <li><strong>İzleme (iOS ATT) / UMP:</strong> Kişiselleştirilmiş reklam için izin istenebilir; GDPR bölgelerinde UMP formu gösterilir.</li>
+    <li><strong>Hesap (Firebase Auth):</strong> Kullanıcı adı ve şifreyle hesap; online masa,
+      arkadaşlar ve bulut profil için gereklidir. Misafir oturumu yalnızca cihazda tutulur.</li>
+    <li><strong>Profil (Firestore):</strong> Görünen ad, avatar, çip bakiyesi, satın alma /
+      No-Ads durumu, arkadaş ilişkileri ve liderlik için kullanılan skor / Elo alanları.</li>
+    <li><strong>Oyun verileri (Firestore):</strong> Açık masa listesi, oyuncu durumları,
+      genel masa / oyun durumu ve kısa süreli smile reaksiyonları.</li>
+    <li><strong>Push (FCM):</strong> Bildirim izni verilirse cihaz token’ı saklanabilir
+      (davet / sosyal bildirimler).</li>
+    <li><strong>Yerel ayarlar:</strong> Tercihler ve misafir profili cihazda saklanabilir
+      (SharedPreferences).</li>
+    <li><strong>Reklamlar (Google AdMob):</strong> Ödüllü ve geçiş (interstitial) reklamları
+      uygun anlarda gösterilebilir. Banner yoktur. AdMob cihaz tanımlayıcıları ve ölçüm
+      verisi toplayabilir. Geliştirmede test birimleri kullanılabilir.</li>
+    <li><strong>Satın almalar:</strong> App Store / Google Play üzerinden çip paketleri ve
+      No-Ads; işlemler mağaza hesapları üzerinden doğrulanır. Kart bilgisi uygulamada tutulmaz.</li>
+    <li><strong>Analitik / çökme:</strong> Firebase Analytics ve Crashlytics tanı ve
+      iyileştirme için anonim / toplu olaylar toplayabilir.</li>
   </ul>
-  <h2>Üçüncü taraf</h2>
+
+  <h2>Toplanmayan veriler</h2>
   <ul>
-    <li><a href="https://policies.google.com/privacy">Google AdMob / Firebase</a></li>
-    <li><a href="https://www.apple.com/legal/privacy/">Apple</a> (App Store / IAP)</li>
+    <li>Konum, kamera, mikrofon veya kişi listesi erişimi yoktur.</li>
+    <li>Serbest metin sohbeti toplanmaz; sosyal iletişim smile / hediye odaklıdır.</li>
   </ul>
+
+  <h2>Üçüncü taraf hizmetler</h2>
+  <ul>
+    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Auth, Firestore, Messaging, Analytics, Crashlytics, Remote Config, Cloud Functions</li>
+    <li><a href="https://policies.google.com/privacy">Google AdMob</a> — reklam sunumu</li>
+    <li>Apple App Store / Google Play — uygulama dağıtımı ve uygulama içi satın alma</li>
+  </ul>
+
+  <h2>Çocuklar</h2>
+  <p>Uygulama geniş kitleye yöneliktir. Bilerek 13 yaş altından kişisel veri toplanmaz.</p>
+
+  <h2>Veri silme</h2>
+  <p>
+    Yerel veriler uygulamayı kaldırarak silinebilir. Hesap / bulut veri silme talepleri
+    için ayarlardan ilgili seçeneği kullanabilir veya e-posta ile iletişime geçebilirsiniz.
+  </p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika güncellenebilir. Güncel sürüm bu sayfada yayımlanır.</p>
+
   <h2>İletişim</h2>
-  <p>unal.m1991@gmail.com</p>
-  <p><a href="privacy-policy-en.html">English</a> · <a href="issues/">Destek</a></p>
+  <p>Sorularınız için: <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a></p>
+  <p class="muted"><a href="privacy-policy-en.html">English version</a></p>
+  <p><a href="./">← Tavla Online</a> · <a href="issues/">Destek</a></p>
 </body>
 </html>
