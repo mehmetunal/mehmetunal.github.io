@@ -3,811 +3,799 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#08080b" />
   <meta name="description" content="Mehmet UNAL tarafından geliştirilen Flutter mobil oyunları: Tavla Online, Pis Yedili, Uno Game, Fruit Butcher, Tank Game, Klaro Puzzle, Zamkır ve daha fazlası." />
   <title>Mehmet UNAL — Mobil Oyunlar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a class="nav-brand" href="#">Mehmet UNAL</a>
-      <a class="nav-link" href="#oyunlar">Oyunlar</a>
-      <a class="nav-link" href="store-urls.html">Mağaza URL'leri</a>
+      <a class="nav-brand" href="#">
+        <span class="nav-mark">MU</span>
+        <span>Mehmet UNAL</span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="#oyunlar">Oyunlar</a>
+        <a class="nav-link" href="store-urls.html">Mağaza</a>
+        <a class="nav-cta" href="mailto:unal.m1991@gmail.com">İletişim</a>
+      </div>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="container hero-inner">
-        <p class="hero-eyebrow">Flutter · iOS & Android</p>
-        <h1>Mobil oyunları keşfedin</h1>
-        <p class="hero-lead">
-          Kart masalarından meyve kesme arcade’ine, 8×8 blok bulmacasından çöl vahasına.
-          Flutter ile geliştirilmiş mobil oyun deneyimleri — yerel ve online.
-        </p>
-        <a class="btn btn-primary" href="#oyunlar">Oyunları incele</a>
+      <div class="hero-mesh" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">Indie stüdyo · Flutter</p>
+          <h1>Mobil oyunlar,<br /><em>titizlikle</em> üretildi.</h1>
+          <p class="hero-lead">
+            Kart masalarından meyve kesme arcade’ine, 8×8 blok bulmacasından çöl vahasına.
+            iOS ve Android için, yerel ve online deneyimler.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#oyunlar">Katalogu incele</a>
+            <a
+              class="btn btn-secondary"
+              href="https://apps.apple.com/tr/developer/mehmet-unal/id6785767004"
+              target="_blank"
+              rel="noopener noreferrer"
+            >App Store</a>
+          </div>
+          <dl class="hero-stats">
+            <div>
+              <dt>13+</dt>
+              <dd>Oyun ve uygulama</dd>
+            </div>
+            <div>
+              <dt>iOS</dt>
+              <dd>ve Android</dd>
+            </div>
+            <div>
+              <dt>TR / EN</dt>
+              <dd>Yerelleştirme</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-stage" aria-hidden="true">
+          <span class="hero-orb hero-orb--1"></span>
+          <span class="hero-orb hero-orb--2"></span>
+          <div class="hero-phone hero-phone--back">
+            <img src="assets/games/fruit-butcher-screenshot.png" alt="" width="360" height="640" />
+          </div>
+          <div class="hero-phone hero-phone--main">
+            <img src="assets/games/tavla-online-screenshot.png" alt="" width="360" height="640" />
+          </div>
+          <div class="hero-phone hero-phone--mid">
+            <img src="assets/games/echoes-screenshot.png" alt="" width="360" height="640" />
+          </div>
+          <img class="hero-float-icon hero-float-icon--a" src="assets/games/arrowgo-icon.png" alt="" width="56" height="56" />
+          <img class="hero-float-icon hero-float-icon--b" src="assets/games/number-fall-icon.png" alt="" width="56" height="56" />
+          <img class="hero-float-icon hero-float-icon--c" src="assets/games/zamkir-icon.png" alt="" width="56" height="56" />
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Tavla Online</span>
+        <span>Pis Yedili</span>
+        <span>Uno Game</span>
+        <span>Zamkır</span>
+        <span>Zihin Labirenti</span>
+        <span>Fruit Butcher</span>
+        <span>Tank Game</span>
+        <span>Klaro Puzzle</span>
+        <span>Echoes of the Oasis</span>
+        <span>Let the Number Fall</span>
+        <span>ArrowGO</span>
+        <span>CrossMath</span>
+        <span>Günlük Asistan</span>
+        <span>Tavla Online</span>
+        <span>Pis Yedili</span>
+        <span>Uno Game</span>
+        <span>Zamkır</span>
+        <span>Zihin Labirenti</span>
+        <span>Fruit Butcher</span>
+        <span>Tank Game</span>
+        <span>Klaro Puzzle</span>
+        <span>Echoes of the Oasis</span>
+        <span>Let the Number Fall</span>
+        <span>ArrowGO</span>
+        <span>CrossMath</span>
+        <span>Günlük Asistan</span>
+      </div>
+    </div>
+
+    <section class="live-strip">
+      <div class="container">
+        <p class="live-label">Şimdi mağazada</p>
+        <div class="live-row">
+          <a class="live-chip" href="#echoes-of-the-oasis">
+            <img src="assets/games/echoes-icon.png" alt="" width="40" height="40" />
+            <span>
+              <strong>Echoes of the Oasis</strong>
+              <small>App Store</small>
+            </span>
+          </a>
+          <a class="live-chip" href="#let-the-number-fall">
+            <img src="assets/games/number-fall-icon.png" alt="" width="40" height="40" />
+            <span>
+              <strong>Let the Number Fall</strong>
+              <small>App Store</small>
+            </span>
+          </a>
+          <a class="live-chip" href="#arrowgo-ok-bulmaca">
+            <img src="assets/games/arrowgo-icon.png" alt="" width="40" height="40" />
+            <span>
+              <strong>ArrowGO</strong>
+              <small>App Store</small>
+            </span>
+          </a>
+          <a class="live-chip" href="#crossmath-number-puzzle">
+            <img src="assets/games/crossmath-icon.png" alt="" width="40" height="40" />
+            <span>
+              <strong>CrossMath</strong>
+              <small>App Store</small>
+            </span>
+          </a>
+          <a class="live-chip" href="#gunluk-asistan">
+            <img src="assets/apps/gunluk-asistan-icon.png" alt="" width="40" height="40" />
+            <span>
+              <strong>Günlük Asistan</strong>
+              <small>App Store</small>
+            </span>
+          </a>
+        </div>
       </div>
     </section>
 
     <section id="oyunlar" class="games-section">
       <div class="container">
         <header class="section-header">
-          <h2>Oyunlarım</h2>
-          <p>Her biri Flutter ile geliştirilmiş, mağaza yayınına hazır mobil oyun projeleri.</p>
+          <div>
+            <h2>Katalog</h2>
+            <p>Flutter ile geliştirilmiş, mağaza yayınına hazır mobil oyunlar ve uygulamalar.</p>
+          </div>
+          <div class="filters" role="tablist" aria-label="Kategori">
+            <button type="button" class="filter-btn is-active" data-filter="all">Tümü</button>
+            <button type="button" class="filter-btn" data-filter="kart">Kart</button>
+            <button type="button" class="filter-btn" data-filter="bulmaca">Bulmaca</button>
+            <button type="button" class="filter-btn" data-filter="arcade">Arcade</button>
+            <button type="button" class="filter-btn" data-filter="simulasyon">Simülasyon</button>
+            <button type="button" class="filter-btn" data-filter="uygulama">Uygulama</button>
+          </div>
         </header>
 
-        <article id="tavla-online" class="game-card game-card--tavla-online">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/tavla-online-screenshot.png"
-                alt="Tavla Online lobi atmosferi"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/tavla-online-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Tavla Online</h3>
-                <p class="game-tagline">Kahvehane ritüeli · bot veya online masa</p>
+        <div class="games-grid">
+          <article id="tavla-online" class="game-tile game-tile--tavla-online" data-cat="kart">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/tavla-online-screenshot.png"
+                  alt="Tavla Online lobi atmosferi"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Klasik tavla: bot arenası veya arkadaşlarınla online masa.
-              Smile’lar, çip marketi, No-Ads ve liderlik. Banner yok.
-            </p>
-            <ul class="feature-list">
-              <li>Bot arenası + online masa / kod</li>
-              <li>Smile sticker’ları, arkadaş listesi</li>
-              <li>Çip vault · IAP · No-Ads</li>
-              <li>Firebase hesap · Flutter</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Tavla</span>
-              <span class="badge">Multiplayer</span>
-              <span class="badge">Online</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/tavla-online-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Tavla Online</h3>
+                  <p class="game-tagline">Kahvehane ritüeli · bot veya online masa</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Klasik tavla: bot arenası veya arkadaşlarınla online masa.
+                Smile’lar, çip marketi, No-Ads ve liderlik. Banner yok.
+              </p>
+              <ul class="feature-list">
+                <li>Bot arenası + online masa / kod</li>
+                <li>Smile sticker’ları, arkadaş listesi</li>
+                <li>Çip vault · IAP · No-Ads</li>
+                <li>Firebase hesap · Flutter</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Tavla</span>
+                <span class="badge">Multiplayer</span>
+                <span class="badge">Online</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — İncelemede</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="tavla-online/">Tanıtım</a>
+                <a class="btn btn-ghost" href="tavla-online/index-en.html">English</a>
+                <a class="btn btn-ghost" href="tavla-online/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="tavla-online/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/tavla-online" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — İncelemede</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="tavla-online/">Tanıtım</a>
-              <a class="btn btn-ghost" href="tavla-online/index-en.html">English</a>
-              <a class="btn btn-ghost" href="tavla-online/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="tavla-online/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/tavla-online"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="pis-yedili" class="game-card game-card--pis-yedili">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/pis-yedili-screenshot.png"
-                alt="Pis Yedili masa atmosferi"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/pis-yedili-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Pis Yedili</h3>
-                <p class="game-tagline">Klasik Türk iskambil · bot veya online masa</p>
+          <article id="pis-yedili" class="game-tile game-tile--pis-yedili" data-cat="kart">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/pis-yedili-screenshot.png"
+                  alt="Pis Yedili masa atmosferi"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Keçe masada Pis Yedili: hızlı bot maçı veya arkadaşlarınla online.
-              Smile reaksiyonları, kozmetik market ve liderlik. Oyun sonu reklam.
-            </p>
-            <ul class="feature-list">
-              <li>Hızlı bot oyunu + online masa / kod</li>
-              <li>7 · 8 · 10 · As · opsiyonel Joker</li>
-              <li>Smile sticker’ları, market, liderlik</li>
-              <li>Firebase hesap · Flutter</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Kart</span>
-              <span class="badge">Multiplayer</span>
-              <span class="badge">Online</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/pis-yedili-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Pis Yedili</h3>
+                  <p class="game-tagline">Klasik Türk iskambil · bot veya online masa</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Keçe masada Pis Yedili: hızlı bot maçı veya arkadaşlarınla online.
+                Smile reaksiyonları, kozmetik market ve liderlik. Oyun sonu reklam.
+              </p>
+              <ul class="feature-list">
+                <li>Hızlı bot oyunu + online masa / kod</li>
+                <li>7 · 8 · 10 · As · opsiyonel Joker</li>
+                <li>Smile sticker’ları, market, liderlik</li>
+                <li>Firebase hesap · Flutter</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Kart</span>
+                <span class="badge">Multiplayer</span>
+                <span class="badge">Online</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — Yakında</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="pis-yedili/">Tanıtım</a>
+                <a class="btn btn-ghost" href="pis-yedili/index-en.html">English</a>
+                <a class="btn btn-ghost" href="pis-yedili/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="pis-yedili/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/pis7-online-game" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — Yakında</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="pis-yedili/">Tanıtım</a>
-              <a class="btn btn-ghost" href="pis-yedili/index-en.html">English</a>
-              <a class="btn btn-ghost" href="pis-yedili/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="pis-yedili/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/pis7-online-game"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="uno-game" class="game-card game-card--uno-game">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/uno-game-screenshot.png"
-                alt="Uno Game masa ekranı"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/uno-game-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Uno Game</h3>
-                <p class="game-tagline">Botlara karşı veya online özel odalarda kart eşleştirme</p>
+          <article id="uno-game" class="game-tile game-tile--uno-game" data-cat="kart">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/uno-game-screenshot.png"
+                  alt="Uno Game masa ekranı"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Yerelde 1–3 bota karşı oyna ya da arkadaşlarınla online masa kur.
-              Klasik özel kartlar, UNO çağrısı, sohbet ve emoji. Reklam yok; ücretsiz.
-            </p>
-            <ul class="feature-list">
-              <li>Yerel + online (Firebase anonim giriş)</li>
-              <li>Şifreli lobiler, hazır ol, masa sohbeti</li>
-              <li>TR / EN arayüz, 14 avatar</li>
-              <li>Mattel / UNO ile ilişkili değildir</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Kart</span>
-              <span class="badge">Multiplayer</span>
-              <span class="badge">Online</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/uno-game-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Uno Game</h3>
+                  <p class="game-tagline">Botlara karşı veya online özel odalarda kart eşleştirme</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Yerelde 1–3 bota karşı oyna ya da arkadaşlarınla online masa kur.
+                Klasik özel kartlar, UNO çağrısı, sohbet ve emoji. Reklam yok; ücretsiz.
+              </p>
+              <ul class="feature-list">
+                <li>Yerel + online (Firebase anonim giriş)</li>
+                <li>Şifreli lobiler, hazır ol, masa sohbeti</li>
+                <li>TR / EN arayüz, 14 avatar</li>
+                <li>Mattel / UNO ile ilişkili değildir</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Kart</span>
+                <span class="badge">Multiplayer</span>
+                <span class="badge">Online</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — İncelemede</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="uno-game/">Tanıtım</a>
+                <a class="btn btn-ghost" href="uno-game/index-en.html">English</a>
+                <a class="btn btn-ghost" href="uno-game/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="uno-game/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/uno-game" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — İncelemede</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="uno-game/">Tanıtım</a>
-              <a class="btn btn-ghost" href="uno-game/index-en.html">English</a>
-              <a class="btn btn-ghost" href="uno-game/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="uno-game/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/uno-game"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="zamkir" class="game-card game-card--zamkir">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/zamkir-screenshot.png"
-                alt="Zamkır menü atmosferi"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/zamkir-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Zamkır</h3>
-                <p class="game-tagline">Zamanın Kırık Saatleri — bir tur daha?</p>
+          <article id="zamkir" class="game-tile game-tile--zamkir" data-cat="bulmaca">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/zamkir-screenshot.png"
+                  alt="Zamkır menü atmosferi"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Altı Zaman Parçası’nı doğru yuvalara diz. Enerji taşması, şans çarkı, kombo tuzağı
-              ve “neredeyse oldu” anlarıyla kısa oturumlu dark fantasy bulmaca.
-              Flutter + Flame; AdMob ödüllü fikir ve ara reklamlar.
-            </p>
-            <ul class="feature-list">
-              <li>Sürükle-bırak tahta · Zaman Muhafızı</li>
-              <li>Fikir (rewarded) · oturum interstitial (1 dk / 5 dk)</li>
-              <li>Türkçe · portrait · çevrimdışı ilerleme</li>
-              <li>Bağımlılık mekanikleri eğitim çalışması</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Bulmaca</span>
-              <span class="badge">Dark Fantasy</span>
-              <span class="badge">AdMob</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/zamkir-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Zamkır</h3>
+                  <p class="game-tagline">Zamanın Kırık Saatleri — bir tur daha?</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Altı Zaman Parçası’nı doğru yuvalara diz. Enerji taşması, şans çarkı, kombo tuzağı
+                ve “neredeyse oldu” anlarıyla kısa oturumlu dark fantasy bulmaca.
+              </p>
+              <ul class="feature-list">
+                <li>Sürükle-bırak tahta · Zaman Muhafızı</li>
+                <li>Fikir (rewarded) · oturum interstitial</li>
+                <li>Türkçe · portrait · çevrimdışı ilerleme</li>
+                <li>Bağımlılık mekanikleri eğitim çalışması</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Bulmaca</span>
+                <span class="badge">Dark Fantasy</span>
+                <span class="badge">AdMob</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — Yakında</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="zamkir/">Tanıtım</a>
+                <a class="btn btn-ghost" href="zamkir/index-en.html">English</a>
+                <a class="btn btn-ghost" href="zamkir/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="zamkir/issues/">Destek</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — Yakında</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="zamkir/">Tanıtım</a>
-              <a class="btn btn-ghost" href="zamkir/index-en.html">English</a>
-              <a class="btn btn-ghost" href="zamkir/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="zamkir/issues/">Destek</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="zihin-labirenti" class="game-card game-card--zihin-labirenti">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/zihin-labirenti-screenshot.png"
-                alt="Zihin Labirenti harita ekranı"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/zihin-labirenti-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Zihin Labirenti</h3>
-                <p class="game-tagline">Hikayeli çevrimdışı bulmaca yolculuğu</p>
+          <article id="zihin-labirenti" class="game-tile game-tile--zihin-labirenti" data-cat="bulmaca">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/zihin-labirenti-screenshot.png"
+                  alt="Zihin Labirenti harita ekranı"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Anılarını topla, zihnini aç. Hafıza, labirent, mantık, dikkat ve sayı desenleri;
-              her bölüm bir hikaye parçası açar. Reklam ve hesap yok — tamamen çevrimdışı.
-            </p>
-            <ul class="feature-list">
-              <li>5 bulmaca türü, yıldızlar, XP ve başarımlar</li>
-              <li>Günlük meydan okuma, seri ve yerel bildirim</li>
-              <li>TR / EN, tema, ses ve erişilebilirlik</li>
-              <li>JSON yedekle / geri yükle</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Bulmaca</span>
-              <span class="badge">Hikaye</span>
-              <span class="badge">Offline</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/zihin-labirenti-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Zihin Labirenti</h3>
+                  <p class="game-tagline">Hikayeli çevrimdışı bulmaca yolculuğu</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Anılarını topla, zihnini aç. Hafıza, labirent, mantık, dikkat ve sayı desenleri;
+                her bölüm bir hikaye parçası açar. Reklam ve hesap yok — tamamen çevrimdışı.
+              </p>
+              <ul class="feature-list">
+                <li>5 bulmaca türü, yıldızlar, XP ve başarımlar</li>
+                <li>Günlük meydan okuma, seri ve yerel bildirim</li>
+                <li>TR / EN, tema, ses ve erişilebilirlik</li>
+                <li>JSON yedekle / geri yükle</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Bulmaca</span>
+                <span class="badge">Hikaye</span>
+                <span class="badge">Offline</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — Yakında</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="zihin-labirenti/">Tanıtım</a>
+                <a class="btn btn-ghost" href="zihin-labirenti/index-en.html">English</a>
+                <a class="btn btn-ghost" href="zihin-labirenti/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="zihin-labirenti/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/mind-labyrinth" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — Yakında</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="zihin-labirenti/">Tanıtım</a>
-              <a class="btn btn-ghost" href="zihin-labirenti/index-en.html">English</a>
-              <a class="btn btn-ghost" href="zihin-labirenti/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="zihin-labirenti/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/mind-labyrinth"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="fruit-butcher" class="game-card game-card--fruit-butcher">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/fruit-butcher-screenshot.png"
-                alt="Fruit Butcher ana menü"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/fruit-butcher-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Fruit Butcher</h3>
-                <p class="game-tagline">Kaydır, kes, combo yap — meyve kesme arcade</p>
+          <article id="fruit-butcher" class="game-tile game-tile--fruit-butcher" data-cat="arcade">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/fruit-butcher-screenshot.png"
+                  alt="Fruit Butcher ana menü"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Parmağınla kaydırarak fırlayan meyveleri kes. 10 dünyalı hikaye, boss savaşları,
-              günlük/haftalık meydan okumalar ve Classic, Zen, Arcade, Endless modları.
-              Flame motoru, mağaza ve yerel ilerleme. AdMob geçiş/ödüllü reklamlar.
-            </p>
-            <ul class="feature-list">
-              <li>Hikaye haritası, hedefler ve yıldızlar</li>
-              <li>Power-up’lar, combo ve aksiyon efektleri</li>
-              <li>TR / EN dil desteği</li>
-              <li>AdMob geçiş ve ödüllü reklamlar (banner yok)</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Arcade</span>
-              <span class="badge">Fruit Ninja</span>
-              <span class="badge">Offline</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/fruit-butcher-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Fruit Butcher</h3>
+                  <p class="game-tagline">Kaydır, kes, combo yap — meyve kesme arcade</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Parmağınla kaydırarak fırlayan meyveleri kes. 10 dünyalı hikaye, boss savaşları,
+                günlük/haftalık meydan okumalar ve Classic, Zen, Arcade, Endless modları.
+              </p>
+              <ul class="feature-list">
+                <li>Hikaye haritası, hedefler ve yıldızlar</li>
+                <li>Power-up’lar, combo ve aksiyon efektleri</li>
+                <li>TR / EN dil desteği</li>
+                <li>AdMob geçiş ve ödüllü reklamlar (banner yok)</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Arcade</span>
+                <span class="badge">Fruit Ninja</span>
+                <span class="badge">Offline</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — İncelemede</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="fruit-butcher/">Tanıtım</a>
+                <a class="btn btn-ghost" href="fruit-butcher/index-en.html">English</a>
+                <a class="btn btn-ghost" href="fruit-butcher/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="fruit-butcher/issues/">Destek</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — İncelemede</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="fruit-butcher/">Tanıtım</a>
-              <a class="btn btn-ghost" href="fruit-butcher/index-en.html">English</a>
-              <a class="btn btn-ghost" href="fruit-butcher/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="fruit-butcher/issues/">Destek</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="tank-1990" class="game-card game-card--tank-1990">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/tank-1990-screenshot.png"
-                alt="Tank Game oyun ekranı"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/tank-1990-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Tank Game</h3>
-                <p class="game-tagline">Battle City tarzı dikey tank savaşı</p>
+          <article id="tank-1990" class="game-tile game-tile--tank-1990" data-cat="arcade">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/tank-1990-screenshot.png"
+                  alt="Tank Game oyun ekranı"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Kartal üssünü koruyun, düşman dalgalarını temizleyin. 200 bölüm, mağaza
-              (tank / silah / zırh / kalkan), görevler ve başarımlar. AdMob reklamları; ücretli IAP yok.
-            </p>
-            <ul class="feature-list">
-              <li>D-pad + ATEŞ, Easy / Normal / Hard</li>
-              <li>TR / EN dil desteği ve otopilot</li>
-              <li>Altınla kalıcı donanım açma</li>
-              <li>Çevrimdışı, hesap gerektirmez</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Arcade</span>
-              <span class="badge">Tank</span>
-              <span class="badge">Offline</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/tank-1990-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Tank Game</h3>
+                  <p class="game-tagline">Battle City tarzı dikey tank savaşı</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Kartal üssünü koruyun, düşman dalgalarını temizleyin. 200 bölüm, mağaza
+                (tank / silah / zırh / kalkan), görevler ve başarımlar. AdMob reklamları; ücretli IAP yok.
+              </p>
+              <ul class="feature-list">
+                <li>D-pad + ATEŞ, Easy / Normal / Hard</li>
+                <li>TR / EN dil desteği ve otopilot</li>
+                <li>Altınla kalıcı donanım açma</li>
+                <li>Çevrimdışı, hesap gerektirmez</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Arcade</span>
+                <span class="badge">Tank</span>
+                <span class="badge">Offline</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — İncelemede</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="tank-game/">Tanıtım</a>
+                <a class="btn btn-ghost" href="tank-game/index-en.html">English</a>
+                <a class="btn btn-ghost" href="tank-game/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="tank-game/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/tank-1990" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — İncelemede</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="tank-game/">Tanıtım</a>
-              <a class="btn btn-ghost" href="tank-game/index-en.html">English</a>
-              <a class="btn btn-ghost" href="tank-game/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="tank-game/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/tank-1990"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="block-puzzle" class="game-card game-card--block-puzzle">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/block-puzzle-screenshot.png"
-                alt="Klaro Puzzle oyun ekranı"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/block-puzzle-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Klaro Puzzle</h3>
-                <p class="game-tagline">Klasik endless + Adventure ızgara bulmaca</p>
+          <article id="block-puzzle" class="game-tile game-tile--block-puzzle" data-cat="bulmaca">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/block-puzzle-screenshot.png"
+                  alt="Klaro Puzzle oyun ekranı"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              8×8 tahtaya tepsiden parça sürükleyin. Dolu satır ve sütun yerinde temizlenir;
-              bloklar kaymaz. Adventure seviyeleri, kombo, altın, rozetler ve günlük ödül.
-            </p>
-            <ul class="feature-list">
-              <li>Tetris değil — yerçekimi ve döndürme yok</li>
-              <li>25 Adventure seviyesi: hedef skor, sınırlı tepsi</li>
-              <li>Türkçe ve İngilizce arayüz</li>
-              <li>AdMob banner, geçiş ve ödüllü reklamlar</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Bulmaca</span>
-              <span class="badge">Adventure</span>
-              <span class="badge">Offline</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/block-puzzle-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Klaro Puzzle</h3>
+                  <p class="game-tagline">Klasik endless + Adventure ızgara bulmaca</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                8×8 tahtaya tepsiden parça sürükleyin. Dolu satır ve sütun yerinde temizlenir;
+                bloklar kaymaz. Adventure seviyeleri, kombo, altın, rozetler ve günlük ödül.
+              </p>
+              <ul class="feature-list">
+                <li>Tetris değil — yerçekimi ve döndürme yok</li>
+                <li>25 Adventure seviyesi: hedef skor, sınırlı tepsi</li>
+                <li>Türkçe ve İngilizce arayüz</li>
+                <li>AdMob banner, geçiş ve ödüllü reklamlar</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Bulmaca</span>
+                <span class="badge">Adventure</span>
+                <span class="badge">Offline</span>
+              </div>
+              <div class="game-actions">
+                <span class="store-badge">App Store — İncelemede</span>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="block-puzzle/">Tanıtım</a>
+                <a class="btn btn-ghost" href="block-puzzle/index-en.html">English</a>
+                <a class="btn btn-ghost" href="block-puzzle/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="block-puzzle/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/block-puzzle" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <span class="store-badge">App Store — İncelemede</span>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="block-puzzle/">Tanıtım</a>
-              <a class="btn btn-ghost" href="block-puzzle/index-en.html">English</a>
-              <a class="btn btn-ghost" href="block-puzzle/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="block-puzzle/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/block-puzzle"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="echoes-of-the-oasis" class="game-card game-card--echoes">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/echoes-screenshot.png"
-                alt="Echoes of the Oasis oyun ekranı"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/echoes-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Echoes of the Oasis</h3>
-                <p class="game-tagline">Vahanın Yankıları — Sandbox vaha simülasyonu</p>
+          <article id="echoes-of-the-oasis" class="game-tile game-tile--echoes" data-cat="simulasyon">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/echoes-screenshot.png"
+                  alt="Echoes of the Oasis oyun ekranı"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Çölün ortasında vahanızı büyütün. Sera katlarını yönetin, tohum ekin, hasat yapın
-              ve keşif robotlarınızı çöle gönderin. Göçebelerle ticaret yapın, görevleri
-              tamamlayın ve vahanızın kalbini güçlendirin.
-            </p>
-            <ul class="feature-list">
-              <li>Çevrimdışı idle simülasyon — internet gerekmez</li>
-              <li>9 sera katı, 9 tohum türü, günlük ödüller</li>
-              <li>20 göçebe karakteri ve dallanan diyaloglar</li>
-              <li>Çöl keşfi, görev zinciri ve bulut yedekleme</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Simülasyon</span>
-              <span class="badge">Sandbox</span>
-              <span class="badge">Keşif</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/echoes-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Echoes of the Oasis</h3>
+                  <p class="game-tagline">Vahanın Yankıları — Sandbox vaha simülasyonu</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Çölün ortasında vahanızı büyütün. Sera katlarını yönetin, tohum ekin, hasat yapın
+                ve keşif robotlarınızı çöle gönderin. Göçebelerle ticaret yapın, görevleri tamamlayın.
+              </p>
+              <ul class="feature-list">
+                <li>Çevrimdışı idle simülasyon — internet gerekmez</li>
+                <li>9 sera katı, 9 tohum türü, günlük ödüller</li>
+                <li>20 göçebe karakteri ve dallanan diyaloglar</li>
+                <li>Çöl keşfi, görev zinciri ve bulut yedekleme</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Simülasyon</span>
+                <span class="badge">Sandbox</span>
+                <span class="badge">Keşif</span>
+              </div>
+              <div class="game-actions">
+                <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/echoes-of-the-oasis/id6785781132" target="_blank" rel="noopener noreferrer">App Store</a>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="echoes-of-the-oasis/">Tanıtım</a>
+                <a class="btn btn-ghost" href="echoes-of-the-oasis/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="echoes-of-the-oasis/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/echoes-of-the-oasis--game" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/echoes-of-the-oasis/id6785781132" target="_blank" rel="noopener noreferrer">App Store</a>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="echoes-of-the-oasis/">Tanıtım</a>
-              <a class="btn btn-ghost" href="echoes-of-the-oasis/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="echoes-of-the-oasis/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/echoes-of-the-oasis--game"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="let-the-number-fall" class="game-card game-card--reverse game-card--numberfall">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/number-fall-screenshot.png"
-                alt="Let the Number Fall oyun ekranı"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/number-fall-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Let the Number Fall</h3>
-                <p class="game-tagline">Kozmik sayı birleştirme bulmacası</p>
+          <article id="let-the-number-fall" class="game-tile game-tile--numberfall" data-cat="bulmaca">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/number-fall-screenshot.png"
+                  alt="Let the Number Fall oyun ekranı"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              5×7 ızgaraya düşen kozmik sayı bloklarını birleştirin, zincir kombolar
-              kurun ve skorunuzu yıldızlara taşıyın. 2048 ve ötesine ulaşabilir misiniz?
-            </p>
-            <ul class="feature-list">
-              <li>Skora göre artan dinamik zorluk seviyeleri</li>
-              <li>Yüksek birleşmelerden altın ve güçlendiriciler</li>
-              <li>Neon kristal görseller ve akıcı animasyonlar</li>
-              <li>Ödüllü reklam ile devam etme ve bonus altın</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Bulmaca</span>
-              <span class="badge">2048</span>
-              <span class="badge">Combo</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/number-fall-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Let the Number Fall</h3>
+                  <p class="game-tagline">Kozmik sayı birleştirme bulmacası</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                5×7 ızgaraya düşen kozmik sayı bloklarını birleştirin, zincir kombolar
+                kurun ve skorunuzu yıldızlara taşıyın. 2048 ve ötesine ulaşabilir misiniz?
+              </p>
+              <ul class="feature-list">
+                <li>Skora göre artan dinamik zorluk seviyeleri</li>
+                <li>Yüksek birleşmelerden altın ve güçlendiriciler</li>
+                <li>Neon kristal görseller ve akıcı animasyonlar</li>
+                <li>Ödüllü reklam ile devam etme ve bonus altın</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Bulmaca</span>
+                <span class="badge">2048</span>
+                <span class="badge">Combo</span>
+              </div>
+              <div class="game-actions">
+                <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/let-the-number-fall/id6785767002" target="_blank" rel="noopener noreferrer">App Store</a>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="let-the-number-fall/">Marketing</a>
+                <a class="btn btn-ghost" href="let-the-number-fall/privacy-policy.html">Privacy</a>
+                <a class="btn btn-ghost" href="let-the-number-fall/issues/">Support</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/let-the-number-fall" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/let-the-number-fall/id6785767002" target="_blank" rel="noopener noreferrer">App Store</a>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="let-the-number-fall/">Marketing</a>
-              <a class="btn btn-ghost" href="let-the-number-fall/privacy-policy.html">Privacy</a>
-              <a class="btn btn-ghost" href="let-the-number-fall/issues/">Support</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/let-the-number-fall"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="arrowgo-ok-bulmaca" class="game-card game-card--arrowgo">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/arrowgo-screenshot.png"
-                alt="ArrowGO oyun görseli"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/arrowgo-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>ArrowGO — Ok Bulmaca</h3>
-                <p class="game-tagline">Okları yönlendir, tahtayı temizle</p>
+          <article id="arrowgo-ok-bulmaca" class="game-tile game-tile--arrowgo" data-cat="bulmaca">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/arrowgo-screenshot.png"
+                  alt="ArrowGO oyun görseli"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Izgara üzerindeki okları doğru sırayla dışarı fırlatarak tahtayı temizleyin.
-              2000 seviye, yıldız sistemi ve giderek zorlaşan bulmacalar sizi bekliyor.
-            </p>
-            <ul class="feature-list">
-              <li>2000 seviye — el yapımı açılış + prosedürel üretim</li>
-              <li>İpucu, geri alma ve ödüllü reklam destekleri</li>
-              <li>Çevrimdışı oynanış, akıcı animasyonlar</li>
-              <li>3×3'ten 8×8'e kadar genişleyen ızgara boyutları</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Hyper-casual</span>
-              <span class="badge">Mantık</span>
-              <span class="badge">Offline</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/arrowgo-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>ArrowGO — Ok Bulmaca</h3>
+                  <p class="game-tagline">Okları yönlendir, tahtayı temizle</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Izgara üzerindeki okları doğru sırayla dışarı fırlatarak tahtayı temizleyin.
+                2000 seviye, yıldız sistemi ve giderek zorlaşan bulmacalar sizi bekliyor.
+              </p>
+              <ul class="feature-list">
+                <li>2000 seviye — el yapımı açılış + prosedürel üretim</li>
+                <li>İpucu, geri alma ve ödüllü reklam destekleri</li>
+                <li>Çevrimdışı oynanış, akıcı animasyonlar</li>
+                <li>3×3'ten 8×8'e kadar genişleyen ızgara boyutları</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Hyper-casual</span>
+                <span class="badge">Mantık</span>
+                <span class="badge">Offline</span>
+              </div>
+              <div class="game-actions">
+                <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/arrowgo-arrow-puzzle/id6786043482" target="_blank" rel="noopener noreferrer">App Store</a>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/">Tanıtım</a>
+                <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/arrowgo-ok-bulmaca" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/arrowgo-arrow-puzzle/id6786043482" target="_blank" rel="noopener noreferrer">App Store</a>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/">Tanıtım</a>
-              <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/arrowgo-ok-bulmaca"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="crossmath-number-puzzle" class="game-card game-card--reverse game-card--crossmath">
-          <div class="game-card__visual">
-            <div class="phone-frame">
-              <img
-                src="assets/games/crossmath-screenshot.png"
-                alt="CrossMath oyun görseli"
-                width="360"
-                height="640"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/games/crossmath-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>CrossMath — Matematik Bulmaca</h3>
-                <p class="game-tagline">Kareler — yatay ve dikey denklemleri çöz</p>
+          <article id="crossmath-number-puzzle" class="game-tile game-tile--crossmath" data-cat="bulmaca">
+            <div class="game-tile__visual">
+              <div class="phone-frame">
+                <img
+                  src="assets/games/crossmath-screenshot.png"
+                  alt="CrossMath oyun görseli"
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Izgara üzerinde toplama, çıkarma, çarpma ve bölme denklemlerini tamamlayın.
-              Prosedürel bulmacalar, günlük meydan okuma, bölüm ilerlemesi ve yıldız sistemi.
-            </p>
-            <ul class="feature-list">
-              <li>3×3'ten 9×9'a zorluk ve tek çözüm garantisi</li>
-              <li>4 bölüm × 20 seviye, ipucu ve altın ekonomisi</li>
-              <li>Günlük meydan okuma ve beyin serisi</li>
-              <li>Kişiselleştirilmemiş reklamlar (NPA)</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Matematik</span>
-              <span class="badge">Bulmaca</span>
-              <span class="badge">Offline</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/games/crossmath-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>CrossMath — Matematik Bulmaca</h3>
+                  <p class="game-tagline">Kareler — yatay ve dikey denklemleri çöz</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Izgara üzerinde toplama, çıkarma, çarpma ve bölme denklemlerini tamamlayın.
+                Prosedürel bulmacalar, günlük meydan okuma, bölüm ilerlemesi ve yıldız sistemi.
+              </p>
+              <ul class="feature-list">
+                <li>3×3'ten 9×9'a zorluk ve tek çözüm garantisi</li>
+                <li>4 bölüm × 20 seviye, ipucu ve altın ekonomisi</li>
+                <li>Günlük meydan okuma ve beyin serisi</li>
+                <li>Kişiselleştirilmemiş reklamlar (NPA)</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Matematik</span>
+                <span class="badge">Bulmaca</span>
+                <span class="badge">Offline</span>
+              </div>
+              <div class="game-actions">
+                <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/crossmath-math-grid/id6786231255" target="_blank" rel="noopener noreferrer">App Store</a>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="crossmath-number-puzzle/">Tanıtım</a>
+                <a class="btn btn-ghost" href="crossmath-number-puzzle/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="crossmath-number-puzzle/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/crossmath-number-puzzle" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/crossmath-math-grid/id6786231255" target="_blank" rel="noopener noreferrer">App Store</a>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="crossmath-number-puzzle/">Tanıtım</a>
-              <a class="btn btn-ghost" href="crossmath-number-puzzle/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="crossmath-number-puzzle/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/crossmath-number-puzzle"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article id="gunluk-asistan" class="game-card game-card--gunluk-asistan">
-          <div class="game-card__visual">
-            <div class="phone-frame phone-frame--icon-only">
-              <img
-                src="assets/apps/gunluk-asistan-icon.png"
-                alt="Günlük Asistan uygulama ikonu"
-                width="200"
-                height="200"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="game-card__content">
-            <div class="game-card__head">
-              <img
-                class="game-icon"
-                src="assets/apps/gunluk-asistan-icon.png"
-                alt=""
-                width="72"
-                height="72"
-                loading="lazy"
-              />
-              <div>
-                <h3>Günlük Asistan</h3>
-                <p class="game-tagline">Akıllı Günlük Asistan - OmniAssist</p>
+          <article id="gunluk-asistan" class="game-tile game-tile--gunluk-asistan" data-cat="uygulama">
+            <div class="game-tile__visual">
+              <div class="phone-frame phone-frame--icon-only">
+                <img
+                  src="assets/apps/gunluk-asistan-icon.png"
+                  alt="Günlük Asistan uygulama ikonu"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                />
               </div>
             </div>
-            <p class="game-desc">
-              Hatırlatıcılar, alarmlar, notlar ve yaşam modülleri tek uygulamada.
-              Veriler yalnızca cihazınızda saklanır; gizlilik odaklı kişisel asistan.
-            </p>
-            <ul class="feature-list">
-              <li>Hatırlatıcı, alarm, takvim ve özel kategoriler</li>
-              <li>Araç, sağlık, finans, abonelik, evcil hayvan modülleri</li>
-              <li>PIN / biyometrik kilit ve JSON yedekleme</li>
-              <li>App open reklamları (NPA) — arka plandan dönüşte</li>
-            </ul>
-            <div class="game-meta">
-              <span class="badge">Üretkenlik</span>
-              <span class="badge">Hatırlatıcı</span>
-              <span class="badge">Gizlilik</span>
+            <div class="game-tile__content">
+              <div class="game-tile__head">
+                <img class="game-icon" src="assets/apps/gunluk-asistan-icon.png" alt="" width="72" height="72" loading="lazy" />
+                <div>
+                  <h3>Günlük Asistan</h3>
+                  <p class="game-tagline">Akıllı Günlük Asistan - OmniAssist</p>
+                </div>
+              </div>
+              <p class="game-desc">
+                Hatırlatıcılar, alarmlar, notlar ve yaşam modülleri tek uygulamada.
+                Veriler yalnızca cihazınızda saklanır; gizlilik odaklı kişisel asistan.
+              </p>
+              <ul class="feature-list">
+                <li>Hatırlatıcı, alarm, takvim ve özel kategoriler</li>
+                <li>Araç, sağlık, finans, abonelik, evcil hayvan modülleri</li>
+                <li>PIN / biyometrik kilit ve JSON yedekleme</li>
+                <li>App open reklamları (NPA) — arka plandan dönüşte</li>
+              </ul>
+              <div class="game-meta">
+                <span class="badge">Üretkenlik</span>
+                <span class="badge">Hatırlatıcı</span>
+                <span class="badge">Gizlilik</span>
+              </div>
+              <div class="game-actions">
+                <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/my-daily-assistant-omniassist/id6786674306" target="_blank" rel="noopener noreferrer">App Store</a>
+                <span class="store-badge">Google Play — Yakında</span>
+                <a class="btn btn-ghost" href="gunluk-asistan/">Tanıtım</a>
+                <a class="btn btn-ghost" href="gunluk-asistan/privacy-policy.html">Gizlilik</a>
+                <a class="btn btn-ghost" href="gunluk-asistan/issues/">Destek</a>
+                <a class="btn btn-ghost" href="https://github.com/mehmetunal/gunluk-asistan" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
-            <div class="game-actions">
-              <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/my-daily-assistant-omniassist/id6786674306" target="_blank" rel="noopener noreferrer">App Store</a>
-              <span class="store-badge">Google Play — Yakında</span>
-              <a class="btn btn-ghost" href="gunluk-asistan/">Tanıtım</a>
-              <a class="btn btn-ghost" href="gunluk-asistan/privacy-policy.html">Gizlilik</a>
-              <a class="btn btn-ghost" href="gunluk-asistan/issues/">Destek</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/mehmetunal/gunluk-asistan"
-                target="_blank"
-                rel="noopener noreferrer"
-              >GitHub</a>
-            </div>
-          </div>
-        </article>
+          </article>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; 2026 Mehmet UNAL</p>
-      <p class="footer-note">Flutter ile geliştirilmiş mobil oyunlar</p>
+      <div class="footer-brand">
+        <span class="nav-mark">MU</span>
+        <div>
+          <p>&copy; 2026 Mehmet UNAL</p>
+          <p class="footer-note">Flutter ile geliştirilmiş mobil oyunlar</p>
+        </div>
+      </div>
       <p class="footer-links">
-        <a href="https://apps.apple.com/tr/developer/mehmet-unal/id6785767004" target="_blank" rel="noopener noreferrer">App Store Geliştirici</a>
-        ·
+        <a href="https://apps.apple.com/tr/developer/mehmet-unal/id6785767004" target="_blank" rel="noopener noreferrer">App Store</a>
         <a href="store-urls.html">Mağaza URL'leri</a>
-        ·
         <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a>
       </p>
     </div>
   </footer>
+  <script src="js/home.js"></script>
 </body>
 </html>
