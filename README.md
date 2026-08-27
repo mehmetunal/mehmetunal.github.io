@@ -4,7 +4,7 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 ## URL şeması
 
-| Alan | Drop 2048 |
+| Alan | Let the Number Fall |
 |------|-----------|
 | Pazarlama | https://mehmetunal.github.io/let-the-number-fall |
 | Destek | https://mehmetunal.github.io/let-the-number-fall/issues |
@@ -82,15 +82,13 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/tank-game/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/tank-game/privacy-policy-en.html |
 
-## Drop 2048
+## Let the Number Fall
 
 | Alan | URL |
 |------|-----|
 | Marketing | https://mehmetunal.github.io/let-the-number-fall |
 | Support | https://mehmetunal.github.io/let-the-number-fall/issues |
 | Privacy | https://mehmetunal.github.io/let-the-number-fall/privacy-policy.html |
-
-(Eski ad: Let the Number Fall — URL yolu aynı kalır.)
 
 ## Echoes of the Oasis
 
