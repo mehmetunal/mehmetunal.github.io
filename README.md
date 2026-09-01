@@ -32,7 +32,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/pis-yedili/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/pis-yedili/privacy-policy-en.html |
 
-## Uno Game
+## KartGO Online Cards (KartGo)
 
 | Alan | URL |
 |------|-----|

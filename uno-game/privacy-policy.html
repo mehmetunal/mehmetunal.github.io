@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Uno Game — Gizlilik Politikası</title>
+  <title>KartGO Online Cards — Gizlilik Politikası</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; }
     h1 { font-size: 1.5rem; }
@@ -15,33 +15,35 @@
 </head>
 <body>
   <h1>Gizlilik Politikası</h1>
-  <p class="muted">Son güncelleme: 6 Ağustos 2026</p>
+  <p class="muted">Son güncelleme: 1 Eylül 2026</p>
 
   <p>
-    <strong>Uno Game</strong> (“uygulama”, bundle:
+    <strong>KartGO Online Cards</strong> (“uygulama”, cihaz adı: <strong>KartGo</strong>, bundle:
     <code>com.unogame.unoGame</code>), Mehmet Ünal tarafından geliştirilen ücretsiz bir
-    mobil kart oyunudur. Reklam göstermez. Online özellikler için anonim Firebase
-    girişi kullanılır; e-posta zorunlu değildir.
+    mobil kart oyunudur. Online özellikler için Firebase kullanılır; kullanıcı adı/şifre,
+    Google veya Apple ile giriş yapılabilir.
   </p>
 
   <h2>Toplanan veriler</h2>
   <ul>
     <li><strong>Yerel ayarlar:</strong> Oyuncu adı, avatar, ses/tempo tercihleri cihazda saklanabilir (SharedPreferences).</li>
-    <li><strong>Anonim kimlik (Firebase Auth):</strong> Online oda oluşturma / katılma için anonim kullanıcı kimliği. E-posta veya telefon toplanmaz.</li>
+    <li><strong>Hesap (Firebase Auth):</strong> Online oda oluşturma / katılma için kullanıcı kimliği. Google veya Apple ile girişte sağlayıcının paylaştığı temel profil bilgileri kullanılabilir.</li>
     <li><strong>Oyun verileri (Firestore):</strong> Oda bilgileri, oyuncu listesi, genel masa durumu, sohbet mesajları ve (yalnızca ilgili oyuncuya görünen) el kartları. Oda kapanınca ilgili veriler silinir.</li>
     <li><strong>İstatistikler:</strong> İsteğe bağlı liderlik için oynanan maç sayısı gibi özet istatistikler (oyuncu kimliğine bağlı).</li>
-    <li><strong>Analitik (Firebase Analytics):</strong> Ekran görüntüleme, oda oluşturma/katılma, maç başlangıç/bitiş gibi olaylar; kişisel iletişim bilgisi içermez.</li>
+    <li><strong>Analitik (Firebase Analytics):</strong> Ekran görüntüleme, oda oluşturma/katılma, maç başlangıç/bitiş gibi olaylar.</li>
+    <li><strong>Reklamlar (Google AdMob):</strong> Maç sonrası isteğe bağlı geçiş reklamları ve ödüllü reklamlar. Reklam etkileşimi ve cihaz tanımlayıcıları reklam sunumu için kullanılabilir; kişisel iletişim bilgisi toplanmaz.</li>
   </ul>
 
   <h2>Toplanmayan veriler</h2>
   <ul>
-    <li>E-posta kaydı, konum, kamera, mikrofon veya kişi listesi erişimi yoktur.</li>
-    <li>Reklam SDK’sı (AdMob vb.) kullanılmaz.</li>
+    <li>Konum, kamera, mikrofon veya kişi listesi erişimi yoktur.</li>
+    <li>E-posta zorunlu değildir (Google / Apple girişi isteğe bağlıdır).</li>
   </ul>
 
   <h2>Üçüncü taraf hizmetler</h2>
   <ul>
     <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Auth, Firestore, Analytics</li>
+    <li><a href="https://policies.google.com/privacy">Google AdMob</a> — reklam sunumu</li>
     <li>Apple App Store / Google Play — uygulama dağıtımı</li>
   </ul>
 
@@ -67,6 +69,6 @@
   <h2>İletişim</h2>
   <p>Sorularınız için: <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a></p>
   <p class="muted"><a href="privacy-policy-en.html">English version</a></p>
-  <p><a href="./">← Uno Game</a> · <a href="issues/">Destek</a></p>
+  <p><a href="./">← KartGo</a> · <a href="issues/">Destek</a></p>
 </body>
 </html>
