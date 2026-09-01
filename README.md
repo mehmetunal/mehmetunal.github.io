@@ -12,7 +12,7 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 Tüm URL'ler: [store-urls.html](store-urls.html)
 
-## Tavla Online
+## Kral Tavla
 
 | Alan | URL |
 |------|-----|
