@@ -646,7 +646,8 @@ a {
 .game-tile--tank-1990 {
   border-color: rgba(76, 175, 80, 0.24);
 }
-.game-tile--block-puzzle {
+.game-tile--block-puzzle,
+.game-tile--klaro-puzzle {
   border-color: rgba(13, 148, 136, 0.24);
 }
 .game-tile--echoes {
@@ -838,7 +839,8 @@ a {
   border-color: rgba(212, 175, 55, 0.28);
 }
 
-.game-tile--block-puzzle .badge {
+.game-tile--block-puzzle .badge,
+.game-tile--klaro-puzzle .badge {
   background: rgba(13, 148, 136, 0.12);
   color: #5eead4;
   border-color: rgba(13, 148, 136, 0.22);
