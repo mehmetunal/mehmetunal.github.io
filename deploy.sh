@@ -25,7 +25,9 @@ git add \
   assets/ \
   README.md \
   .nojekyll \
-  uno-game/ \
+  kartgo/ \
+  tavla-online/ \
+  pis-yedili/ \
   zamkir/ \
   zihin-labirenti/ \
   fruit-butcher/ \
@@ -42,7 +44,7 @@ git add \
 if git diff --cached --quiet; then
   echo "Değişiklik yok."
 else
-  git commit -m "Add Uno Game marketing, privacy, and support pages"
+  git commit -m "Update game marketing, privacy, and support pages"
 fi
 
 echo "Push: git push -u origin main"
@@ -50,5 +52,5 @@ git push -u origin main
 
 echo ""
 echo "Doğrulama (birkaç dakika sonra):"
-echo "  curl -sI https://mehmetunal.github.io/uno-game/"
+echo "  curl -sI https://mehmetunal.github.io/kartgo/"
 echo "  curl -s https://mehmetunal.github.io/app-ads.txt"
