@@ -198,7 +198,7 @@ a.btn:hover {
 .theme-tank-1990 { --accent: #4caf50; }
 .theme-zihin-labirenti { --accent: #5ce1e6; }
 .theme-zamkir { --accent: #d4af37; }
-.theme-uno-game { --accent: #c9a227; }
+.theme-kartgo { --accent: #c9a227; }
 .theme-pis-yedili { --accent: #1c9a64; }
 .theme-tavla-online { --accent: #b33a3a; }
 
@@ -212,6 +212,6 @@ a.btn:hover {
 .theme-tank-1990 .btn-primary { background: #4caf50; color: #04120a; }
 .theme-zihin-labirenti .btn-primary { background: #5ce1e6; color: #041214; }
 .theme-zamkir .btn-primary { background: #d4af37; color: #0d0221; }
-.theme-uno-game .btn-primary { background: #c9a227; color: #1a0a0c; }
+.theme-kartgo .btn-primary { background: #c9a227; color: #1a0a0c; }
 .theme-pis-yedili .btn-primary { background: #1c9a64; color: #04140c; }
 .theme-tavla-online .btn-primary { background: #b33a3a; color: #f3e6d0; }

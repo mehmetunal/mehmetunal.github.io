@@ -36,11 +36,11 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
-| Pazarlama | https://mehmetunal.github.io/uno-game |
-| Marketing (EN) | https://mehmetunal.github.io/uno-game/index-en.html |
-| Destek | https://mehmetunal.github.io/uno-game/issues |
-| Gizlilik (TR) | https://mehmetunal.github.io/uno-game/privacy-policy.html |
-| Privacy (EN) | https://mehmetunal.github.io/uno-game/privacy-policy-en.html |
+| Pazarlama | https://mehmetunal.github.io/kartgo |
+| Marketing (EN) | https://mehmetunal.github.io/kartgo/index-en.html |
+| Destek | https://mehmetunal.github.io/kartgo/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/kartgo/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/kartgo/privacy-policy-en.html |
 
 ## Zamkır — Zamanın Kırık Saatleri
 

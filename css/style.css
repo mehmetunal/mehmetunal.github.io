@@ -631,7 +631,7 @@ a {
 .game-tile--pis-yedili {
   border-color: rgba(28, 154, 100, 0.28);
 }
-.game-tile--uno-game {
+.game-tile--kartgo {
   border-color: rgba(201, 162, 39, 0.28);
 }
 .game-tile--zamkir {
@@ -850,7 +850,7 @@ a {
   border-color: rgba(76, 175, 80, 0.22);
 }
 
-.game-tile--uno-game .badge {
+.game-tile--kartgo .badge {
   background: rgba(201, 162, 39, 0.16);
   color: #f0d78c;
   border-color: rgba(201, 162, 39, 0.28);
