@@ -665,6 +665,9 @@ a {
 .game-tile--gunluk-asistan {
   border-color: rgba(59, 111, 204, 0.22);
 }
+.game-tile--mag-ai {
+  border-color: rgba(56, 189, 248, 0.22);
+}
 
 .game-tile__visual {
   display: flex;
@@ -819,6 +822,12 @@ a {
   background: rgba(59, 111, 204, 0.12);
   color: #93b4f5;
   border-color: rgba(59, 111, 204, 0.22);
+}
+
+.game-tile--mag-ai .badge {
+  background: rgba(56, 189, 248, 0.12);
+  color: #7dd3fc;
+  border-color: rgba(56, 189, 248, 0.22);
 }
 
 .game-tile--zihin-labirenti .badge {

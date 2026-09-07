@@ -127,6 +127,17 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Kullanım Koşulları (TR) | https://mehmetunal.github.io/gunluk-asistan/terms-of-use.html |
 | Terms of Use (EN) | https://mehmetunal.github.io/gunluk-asistan/terms-of-use-en.html |
 
+## Mag AI — talk-to-code (VS Code)
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/mag-ai |
+| Marketing (EN) | https://mehmetunal.github.io/mag-ai/index-en.html |
+| Destek | https://mehmetunal.github.io/mag-ai/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/mag-ai/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/mag-ai/privacy-policy-en.html |
+| Marketplace | https://marketplace.visualstudio.com/items?itemName=maggsoft.mag-ai |
+
 ## Yayınlama
 
 ```bash

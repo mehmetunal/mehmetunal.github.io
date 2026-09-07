@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mag AI — Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    a { color: #0284c7; }
+    .muted { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: 7 September 2026</p>
+
+  <p>
+    <strong>Mag AI</strong> is a Visual Studio Code extension by Mehmet Ünal / Maggsoft.
+    It helps you write and fix code in natural language. We respect your privacy.
+  </p>
+
+  <h2>Summary</h2>
+  <p>
+    Mag AI does not run a Maggsoft account or backend for this product. API keys stay on your machine.
+    Project files go only to the model you choose: a local runtime stays on-device; a cloud model is sent to that provider.
+  </p>
+
+  <h2>Data stored on your device</h2>
+  <ul>
+    <li><strong>API keys:</strong> OS keychain or <code>~/.mag-ai/secrets.json</code> (restricted file permissions). They are not written to git or VS Code <code>settings.json</code>.</li>
+    <li><strong>Settings and sessions:</strong> model choice, chat history, and optional project memory under <code>~/.mag-ai</code> and the project’s <code>.magai/</code> folder.</li>
+  </ul>
+
+  <h2>Data sent to a model</h2>
+  <ul>
+    <li>Your chat text, attached files, and workspace content the agent reads are sent to the selected LLM.</li>
+    <li><strong>Local model</strong> (Ollama, LM Studio, llama.cpp, vLLM): the request stays on this machine.</li>
+    <li><strong>Cloud provider</strong> (OpenAI, Google, NVIDIA, Azure OpenAI, or a custom endpoint): the request is subject to that provider’s privacy policy. Mag AI does not sell a model subscription.</li>
+    <li>Password and private-key files (<code>.env</code>, <code>*.pem</code>, <code>id_rsa</code>, and similar) are not sent to the model.</li>
+  </ul>
+
+  <h2>Data we do not collect</h2>
+  <ul>
+    <li>No Maggsoft analytics, ads, or account system.</li>
+    <li>No payment card data.</li>
+    <li>No location, contacts, camera, or microphone.</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <ul>
+    <li>Visual Studio Marketplace — extension distribution (Microsoft)</li>
+    <li>The LLM provider you choose — only when you use a cloud model</li>
+    <li>Optional Hugging Face GGUF search — model catalogue; project source is not uploaded</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The product is for software developers. We do not knowingly collect personal data from children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>This policy may be updated. The current version is published on this page.</p>
+
+  <h2>Contact</h2>
+  <p>
+    Mehmet Ünal · <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a> · +90 537 376 10 04
+  </p>
+
+  <p class="muted"><a href="privacy-policy.html">Türkçe sürüm</a></p>
+  <p>
+    <a href="./index-en.html">← Mag AI</a>
+    · <a href="issues/">Support</a>
+  </p>
+</body>
+</html>
