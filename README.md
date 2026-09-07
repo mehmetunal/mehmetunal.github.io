@@ -136,6 +136,9 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Destek | https://mehmetunal.github.io/mag-ai/issues |
 | Gizlilik (TR) | https://mehmetunal.github.io/mag-ai/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/mag-ai/privacy-policy-en.html |
+| Terms (TR) | https://mehmetunal.github.io/mag-ai/terms-of-use.html |
+| Terms (EN) | https://mehmetunal.github.io/mag-ai/terms-of-use-en.html |
+| Verification | https://mehmetunal.github.io/mag-ai/verify.html |
 | Marketplace | https://marketplace.visualstudio.com/items?itemName=maggsoft.mag-ai |
 
 ## Yayınlama
