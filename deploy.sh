@@ -39,6 +39,7 @@ git add \
   arrowgo-ok-bulmaca/ \
   crossmath-number-puzzle/ \
   gunluk-asistan/ \
+  mag-ai/ \
   barkaway/
 
 if git diff --cached --quiet; then
