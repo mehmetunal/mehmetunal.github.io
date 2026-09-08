@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Unal Agent">
+  <defs>
+    <linearGradient id="unal-bg" x1="18" y1="14" x2="110" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="0.55" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="32" fill="url(#unal-bg)"/>
+  <!-- U stem + base -->
+  <path
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="16"
+    stroke-linecap="butt"
+    stroke-linejoin="round"
+    d="M42 28v48c0 14.36 9.64 24 22 24s22-9.64 22-24V50"
+  />
+  <!-- Hollow node on the right stem (evenodd ring) -->
+  <path
+    fill="#FFFFFF"
+    fill-rule="evenodd"
+    d="M86 20a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0 10a6 6 0 1 0 0 12 6 6 0 1 0 0-12z"
+  />
+</svg>

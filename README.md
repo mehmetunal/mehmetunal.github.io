@@ -127,19 +127,19 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Kullanım Koşulları (TR) | https://mehmetunal.github.io/gunluk-asistan/terms-of-use.html |
 | Terms of Use (EN) | https://mehmetunal.github.io/gunluk-asistan/terms-of-use-en.html |
 
-## Mag AI — talk-to-code (VS Code)
+## Unal Agent — talk-to-code (VS Code)
 
 | Alan | URL |
 |------|-----|
-| Pazarlama | https://mehmetunal.github.io/mag-ai |
-| Marketing (EN) | https://mehmetunal.github.io/mag-ai/index-en.html |
-| Destek | https://mehmetunal.github.io/mag-ai/issues |
-| Gizlilik (TR) | https://mehmetunal.github.io/mag-ai/privacy-policy.html |
-| Privacy (EN) | https://mehmetunal.github.io/mag-ai/privacy-policy-en.html |
-| Terms (TR) | https://mehmetunal.github.io/mag-ai/terms-of-use.html |
-| Terms (EN) | https://mehmetunal.github.io/mag-ai/terms-of-use-en.html |
-| Verification | https://mehmetunal.github.io/mag-ai/verify.html |
-| Marketplace | https://marketplace.visualstudio.com/items?itemName=maggsoft.mag-ai |
+| Pazarlama | https://mehmetunal.github.io/unal-agent |
+| Marketing (EN) | https://mehmetunal.github.io/unal-agent/index-en.html |
+| Destek | https://mehmetunal.github.io/unal-agent/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/unal-agent/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/unal-agent/privacy-policy-en.html |
+| Terms (TR) | https://mehmetunal.github.io/unal-agent/terms-of-use.html |
+| Terms (EN) | https://mehmetunal.github.io/unal-agent/terms-of-use-en.html |
+| Verification | https://mehmetunal.github.io/unal-agent/verify.html |
+| Marketplace | https://marketplace.visualstudio.com/items?itemName=maggsoft.unal-agent |
 
 ## Yayınlama
 

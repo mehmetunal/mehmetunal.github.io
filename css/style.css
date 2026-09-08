@@ -665,7 +665,7 @@ a {
 .game-tile--gunluk-asistan {
   border-color: rgba(59, 111, 204, 0.22);
 }
-.game-tile--mag-ai {
+.game-tile--unal-agent {
   border-color: rgba(56, 189, 248, 0.22);
 }
 
@@ -824,7 +824,7 @@ a {
   border-color: rgba(59, 111, 204, 0.22);
 }
 
-.game-tile--mag-ai .badge {
+.game-tile--unal-agent .badge {
   background: rgba(56, 189, 248, 0.12);
   color: #7dd3fc;
   border-color: rgba(56, 189, 248, 0.22);
