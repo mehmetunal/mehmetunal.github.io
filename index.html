@@ -6,6 +6,10 @@
   <meta name="theme-color" content="#08080b" />
   <meta name="description" content="Mehmet UNAL — mobil oyunlar ve yazılım ürünleri: Kral Tavla, KartGO, Yogapil, Trimango, TriPay, AtolyeOS, Maggsoft ve daha fazlası." />
   <title>Mehmet UNAL — Oyunlar & Yazılım</title>
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16.png" />
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -15,14 +19,18 @@
   <header class="site-header">
     <nav class="nav container">
       <a class="nav-brand" href="#">
-        <span class="nav-mark">MU</span>
+        <img class="nav-logo" src="assets/brand/logo.png" alt="Mehmet Ünal" width="36" height="36" />
         <span>Mehmet UNAL</span>
       </a>
       <div class="nav-links">
-        <a class="nav-link" href="#oyunlar">Oyunlar</a>
-        <a class="nav-link" href="store-urls.html">Mağaza</a>
-        <a class="nav-link" href="assets/docs/Mehmet-Unal-CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-        <a class="nav-cta" href="mailto:unal.m1991@gmail.com">İletişim</a>
+        <a class="nav-link" href="#oyunlar" data-i18n="nav.games">Oyunlar</a>
+        <a class="nav-link" href="store-urls.html" data-i18n="nav.store">Mağaza</a>
+        <a class="nav-link" href="assets/docs/Mehmet-Unal-CV.pdf" target="_blank" rel="noopener noreferrer" data-i18n="nav.cv">CV</a>
+        <label class="lang-switch" data-i18n-attr="aria-label:nav.lang">
+          <span class="visually-hidden" data-i18n="nav.lang">Dil</span>
+          <select id="lang-switch" name="lang" aria-label="Language"></select>
+        </label>
+        <a class="nav-cta" href="mailto:unal.m1991@gmail.com" data-i18n="nav.contact">İletişim</a>
       </div>
     </nav>
   </header>
@@ -32,33 +40,34 @@
       <div class="hero-mesh" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="hero-eyebrow">Indie stüdyo · Flutter · .NET</p>
-          <h1>Oyunlar ve yazılım,<br /><em>titizlikle</em> üretildi.</h1>
-          <p class="hero-lead">
+          <p class="hero-eyebrow" data-i18n="hero.eyebrow">Indie stüdyo · Flutter · .NET</p>
+          <h1 data-i18n="hero.title" data-i18n-html="1">Oyunlar ve yazılım,<br /><em>titizlikle</em> üretildi.</h1>
+          <p class="hero-lead" data-i18n="hero.lead">
             Mobil oyunlardan SaaS panellerine, ödeme hub’ından stüdyo yönetimine.
             iOS, Android ve web için uçtan uca ürünler.
           </p>
           <div class="hero-cta">
-            <a class="btn btn-primary" href="#oyunlar">Katalogu incele</a>
+            <a class="btn btn-primary" href="#oyunlar" data-i18n="hero.cta.catalog">Katalogu incele</a>
             <a
               class="btn btn-secondary"
               href="https://apps.apple.com/tr/developer/mehmet-unal/id6785767004"
               target="_blank"
               rel="noopener noreferrer"
+              data-i18n="hero.cta.appstore"
             >App Store</a>
           </div>
           <dl class="hero-stats">
             <div>
               <dt>27+</dt>
-              <dd>Oyun ve yazılım</dd>
+              <dd data-i18n="hero.stat.products">Oyun ve yazılım</dd>
             </div>
             <div>
               <dt>iOS</dt>
-              <dd>ve Android</dd>
+              <dd data-i18n="hero.stat.platforms">ve Android</dd>
             </div>
             <div>
-              <dt>TR / EN</dt>
-              <dd>Yerelleştirme</dd>
+              <dt>94+</dt>
+              <dd data-i18n="hero.stat.i18n">Dil</dd>
             </div>
           </dl>
         </div>
@@ -130,7 +139,7 @@
 
     <section class="live-strip">
       <div class="container">
-        <p class="live-label">Şimdi mağazada</p>
+        <p class="live-label" data-i18n="live.label">Şimdi mağazada</p>
         <div class="live-row">
           <a class="live-chip" href="#kartgo">
             <img src="assets/games/kartgo-icon.png" alt="" width="40" height="40" />
@@ -189,17 +198,17 @@
       <div class="container">
         <header class="section-header">
           <div>
-            <h2>Katalog</h2>
-            <p>Mobil oyunlar, SaaS ürünleri ve geliştirici araçları — tek stüdyo.</p>
+            <h2 data-i18n="catalog.title">Katalog</h2>
+            <p data-i18n="catalog.lead">Mobil oyunlar, SaaS ürünleri ve geliştirici araçları — tek stüdyo.</p>
           </div>
           <div class="filters" role="tablist" aria-label="Kategori">
-            <button type="button" class="filter-btn is-active" data-filter="all">Tümü</button>
-            <button type="button" class="filter-btn" data-filter="kart">Kart</button>
-            <button type="button" class="filter-btn" data-filter="bulmaca">Bulmaca</button>
-            <button type="button" class="filter-btn" data-filter="arcade">Arcade</button>
-            <button type="button" class="filter-btn" data-filter="simulasyon">Simülasyon</button>
-            <button type="button" class="filter-btn" data-filter="uygulama">Uygulama</button>
-            <button type="button" class="filter-btn" data-filter="yazilim">Yazılım</button>
+            <button type="button" class="filter-btn is-active" data-filter="all" data-i18n="filter.all">Tümü</button>
+            <button type="button" class="filter-btn" data-filter="kart" data-i18n="filter.kart">Kart</button>
+            <button type="button" class="filter-btn" data-filter="bulmaca" data-i18n="filter.bulmaca">Bulmaca</button>
+            <button type="button" class="filter-btn" data-filter="arcade" data-i18n="filter.arcade">Arcade</button>
+            <button type="button" class="filter-btn" data-filter="simulasyon" data-i18n="filter.simulasyon">Simülasyon</button>
+            <button type="button" class="filter-btn" data-filter="uygulama" data-i18n="filter.uygulama">Uygulama</button>
+            <button type="button" class="filter-btn" data-filter="yazilim" data-i18n="filter.yazilim">Yazılım</button>
           </div>
         </header>
 
@@ -240,13 +249,13 @@
                 <span class="badge">Online</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — İncelemede</span>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="tavla-online/">Tanıtım</a>
-                <a class="btn btn-ghost" href="tavla-online/index-en.html">English</a>
-                <a class="btn btn-ghost" href="tavla-online/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="tavla-online/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/tavla-online" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.review">İncelemede</span></span>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="tavla-online/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="tavla-online/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="tavla-online/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="tavla-online/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/tavla-online" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -299,13 +308,13 @@
                 <span class="badge">Online</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — Yakında</span>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="pis-yedili/">Tanıtım</a>
-                <a class="btn btn-ghost" href="pis-yedili/index-en.html">English</a>
-                <a class="btn btn-ghost" href="pis-yedili/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="pis-yedili/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/pis7-online-game" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.soon">Yakında</span></span>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="pis-yedili/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="pis-yedili/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="pis-yedili/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="pis-yedili/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/pis7-online-game" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -361,12 +370,12 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://apps.apple.com/us/app/kartgo-online-cards/id6798578118" target="_blank" rel="noopener noreferrer">App Store</a>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="kartgo/">Tanıtım</a>
-                <a class="btn btn-ghost" href="kartgo/index-en.html">English</a>
-                <a class="btn btn-ghost" href="kartgo/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="kartgo/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/uno-game" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="kartgo/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="kartgo/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="kartgo/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="kartgo/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/uno-game" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -409,13 +418,13 @@
                 <span class="badge">AdMob</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — Yakında</span>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="zamkir/">Tanıtım</a>
-                <a class="btn btn-ghost" href="zamkir/index-en.html">English</a>
-                <a class="btn btn-ghost" href="zamkir/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="zamkir/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/Maggsoft/zambir" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.soon">Yakında</span></span>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="zamkir/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="zamkir/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="zamkir/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="zamkir/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/Maggsoft/zambir" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -456,13 +465,13 @@
                 <span class="badge">Offline</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — Yakında</span>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="zihin-labirenti/">Tanıtım</a>
-                <a class="btn btn-ghost" href="zihin-labirenti/index-en.html">English</a>
-                <a class="btn btn-ghost" href="zihin-labirenti/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="zihin-labirenti/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/mind-labyrinth" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.soon">Yakında</span></span>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="zihin-labirenti/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="zihin-labirenti/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="zihin-labirenti/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="zihin-labirenti/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/mind-labyrinth" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -505,13 +514,13 @@
                 <span class="badge">Offline</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — İncelemede</span>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="fruit-butcher/">Tanıtım</a>
-                <a class="btn btn-ghost" href="fruit-butcher/index-en.html">English</a>
-                <a class="btn btn-ghost" href="fruit-butcher/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="fruit-butcher/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/Maggsoft/fruit-butcher" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.review">İncelemede</span></span>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="fruit-butcher/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="fruit-butcher/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="fruit-butcher/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="fruit-butcher/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/Maggsoft/fruit-butcher" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -552,13 +561,13 @@
                 <span class="badge">Offline</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — İncelemede</span>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="tank-game/">Tanıtım</a>
-                <a class="btn btn-ghost" href="tank-game/index-en.html">English</a>
-                <a class="btn btn-ghost" href="tank-game/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="tank-game/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/tank-1990" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.review">İncelemede</span></span>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="tank-game/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="tank-game/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="tank-game/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="tank-game/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/tank-1990" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -599,13 +608,13 @@
                 <span class="badge">Offline</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — İncelemede</span>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="klaro-puzzle/">Tanıtım</a>
-                <a class="btn btn-ghost" href="klaro-puzzle/index-en.html">English</a>
-                <a class="btn btn-ghost" href="klaro-puzzle/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="klaro-puzzle/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/Maggsoft/klaro-puzzle" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.review">İncelemede</span></span>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="klaro-puzzle/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="klaro-puzzle/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="klaro-puzzle/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="klaro-puzzle/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/Maggsoft/klaro-puzzle" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -647,11 +656,11 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/echoes-of-the-oasis/id6785781132" target="_blank" rel="noopener noreferrer">App Store</a>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="echoes-of-the-oasis/">Tanıtım</a>
-                <a class="btn btn-ghost" href="echoes-of-the-oasis/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="echoes-of-the-oasis/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/echoes-of-the-oasis--game" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="echoes-of-the-oasis/">Tanıtım</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="echoes-of-the-oasis/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="echoes-of-the-oasis/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/echoes-of-the-oasis--game" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -693,11 +702,11 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/let-the-number-fall/id6785767002" target="_blank" rel="noopener noreferrer">App Store</a>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="let-the-number-fall/">Marketing</a>
-                <a class="btn btn-ghost" href="let-the-number-fall/privacy-policy.html">Privacy</a>
-                <a class="btn btn-ghost" href="let-the-number-fall/issues/">Support</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/let-the-number-fall" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a class="btn btn-ghost" data-i18n="btn.promo" href="let-the-number-fall/">Marketing</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="let-the-number-fall/privacy-policy.html">Privacy</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="let-the-number-fall/issues/">Support</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/let-the-number-fall" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -739,11 +748,11 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/arrowgo-arrow-puzzle/id6786043482" target="_blank" rel="noopener noreferrer">App Store</a>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/">Tanıtım</a>
-                <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="arrowgo-ok-bulmaca/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/arrowgo-ok-bulmaca" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="arrowgo-ok-bulmaca/">Tanıtım</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="arrowgo-ok-bulmaca/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="arrowgo-ok-bulmaca/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/arrowgo-ok-bulmaca" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -785,11 +794,11 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/crossmath-math-grid/id6786231255" target="_blank" rel="noopener noreferrer">App Store</a>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="crossmath-number-puzzle/">Tanıtım</a>
-                <a class="btn btn-ghost" href="crossmath-number-puzzle/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="crossmath-number-puzzle/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/crossmath-number-puzzle" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="crossmath-number-puzzle/">Tanıtım</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="crossmath-number-puzzle/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="crossmath-number-puzzle/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/crossmath-number-puzzle" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -827,15 +836,15 @@
               <div class="game-meta">
                 <span class="badge">Üretkenlik</span>
                 <span class="badge">Hatırlatıcı</span>
-                <span class="badge">Gizlilik</span>
+                <span class="badge" data-i18n="btn.privacy">Gizlilik</span>
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://apps.apple.com/tr/app/my-daily-assistant-omniassist/id6786674306" target="_blank" rel="noopener noreferrer">App Store</a>
-                <span class="store-badge">Google Play — Yakında</span>
-                <a class="btn btn-ghost" href="gunluk-asistan/">Tanıtım</a>
-                <a class="btn btn-ghost" href="gunluk-asistan/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="gunluk-asistan/issues/">Destek</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/gunluk-asistan" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.play">Google Play — Yakında</span>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="gunluk-asistan/">Tanıtım</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="gunluk-asistan/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="gunluk-asistan/issues/">Destek</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/gunluk-asistan" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -877,12 +886,12 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://marketplace.visualstudio.com/items?itemName=maggsoft.unal-agent" target="_blank" rel="noopener noreferrer">Marketplace</a>
-                <a class="btn btn-ghost" href="unal-agent/">Tanıtım</a>
-                <a class="btn btn-ghost" href="unal-agent/index-en.html">English</a>
-                <a class="btn btn-ghost" href="unal-agent/privacy-policy.html">Gizlilik</a>
-                <a class="btn btn-ghost" href="unal-agent/issues/">Destek</a>
-                <a class="btn btn-ghost" href="unal-agent/verify.html">Doğrulama</a>
-                <a class="btn btn-ghost" href="https://github.com/Maggsoft/unal-agent" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a data-i18n="btn.promo" class="btn btn-ghost" href="unal-agent/">Tanıtım</a>
+                <a data-i18n="btn.english" class="btn btn-ghost" href="unal-agent/index-en.html">English</a>
+                <a data-i18n="btn.privacy" class="btn btn-ghost" href="unal-agent/privacy-policy.html">Gizlilik</a>
+                <a data-i18n="btn.support" class="btn btn-ghost" href="unal-agent/issues/">Destek</a>
+                <a data-i18n="btn.verify" class="btn btn-ghost" href="unal-agent/verify.html">Doğrulama</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/Maggsoft/unal-agent" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -919,9 +928,9 @@
                 <span class="badge">Online</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — Geliştirmede</span>
-                <span class="store-badge">Google Play — Geliştirmede</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/santranc-online" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.dev">Geliştirmede</span></span>
+                <span class="store-badge">Google Play — <span data-i18n="store.dev">Geliştirmede</span></span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/santranc-online" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -958,8 +967,8 @@
                 <span class="badge">Fitness</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — Geliştirmede</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/yogapil" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.dev">Geliştirmede</span></span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/yogapil" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -997,7 +1006,7 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://trimango.com.tr" target="_blank" rel="noopener noreferrer">Web</a>
-                <a class="btn btn-ghost" href="https://github.com/Trimango-B2B/trimango" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/Trimango-B2B/trimango" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1034,7 +1043,7 @@
                 <span class="badge">Portal</span>
               </div>
               <div class="game-actions">
-                <a class="btn btn-ghost" href="https://github.com/Maggsoft/magg-hub-b2b" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/Maggsoft/magg-hub-b2b" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1072,7 +1081,7 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://tripay.com.tr" target="_blank" rel="noopener noreferrer">Web</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/tripay" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/tripay" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1109,7 +1118,7 @@
                 <span class="badge">ERP</span>
               </div>
               <div class="game-actions">
-                <a class="btn btn-ghost" href="https://github.com/Maggsoft/atolyeos" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/Maggsoft/atolyeos" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1146,8 +1155,8 @@
                 <span class="badge">SaaS</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">Web — Geliştirmede</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/tristok" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">Web — <span data-i18n="store.dev">Geliştirmede</span></span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/tristok" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1184,8 +1193,8 @@
                 <span class="badge">Local LLM</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">Self-host</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/triasist" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.selfhost">Self-host</span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/triasist" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1222,8 +1231,8 @@
                 <span class="badge">Dashboard</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">Web — Geliştirmede</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/trading.munal" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">Web — <span data-i18n="store.dev">Geliştirmede</span></span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/trading.munal" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1260,7 +1269,7 @@
                 <span class="badge">NuGet</span>
               </div>
               <div class="game-actions">
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/maggsoft" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/maggsoft" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1297,8 +1306,8 @@
                 <span class="badge">Araç</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">Chrome — Yerel</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/ivd-extension" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.chrome">Chrome — Yerel</span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/ivd-extension" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1336,7 +1345,7 @@
               </div>
               <div class="game-actions">
                 <a class="store-badge store-badge--appstore" href="https://www.psikologduyguaydin.com" target="_blank" rel="noopener noreferrer">Web</a>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/psk-duygunaydin" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/psk-duygunaydin" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1373,9 +1382,9 @@
                 <span class="badge">Flutter</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">App Store — Geliştirmede</span>
-                <span class="store-badge">Web — Geliştirmede</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/echos-of-aldoria" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge">App Store — <span data-i18n="store.dev">Geliştirmede</span></span>
+                <span class="store-badge">Web — <span data-i18n="store.dev">Geliştirmede</span></span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/echos-of-aldoria" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1412,8 +1421,8 @@
                 <span class="badge">Test</span>
               </div>
               <div class="game-actions">
-                <span class="store-badge">Self-host</span>
-                <a class="btn btn-ghost" href="https://github.com/mehmetunal/triqa-ai" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="store-badge" data-i18n="store.selfhost">Self-host</span>
+                <a data-i18n="btn.github" class="btn btn-ghost" href="https://github.com/mehmetunal/triqa-ai" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -1425,20 +1434,21 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="nav-mark">MU</span>
+        <img class="nav-logo" src="assets/brand/logo.png" alt="" width="36" height="36" />
         <div>
           <p>&copy; 2026 Mehmet UNAL</p>
-          <p class="footer-note">Oyunlar, SaaS ve geliştirici araçları</p>
+          <p class="footer-note" data-i18n="footer.note">Oyunlar, SaaS ve geliştirici araçları</p>
         </div>
       </div>
       <p class="footer-links">
         <a href="https://apps.apple.com/tr/developer/mehmet-unal/id6785767004" target="_blank" rel="noopener noreferrer">App Store</a>
-        <a href="store-urls.html">Mağaza URL'leri</a>
-        <a href="assets/docs/Mehmet-Unal-CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="store-urls.html" data-i18n="footer.storeurls">Mağaza URL'leri</a>
+        <a href="assets/docs/Mehmet-Unal-CV.pdf" target="_blank" rel="noopener noreferrer" data-i18n="nav.cv">CV</a>
         <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a>
       </p>
     </div>
   </footer>
+  <script src="js/i18n.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>
