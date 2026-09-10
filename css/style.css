@@ -748,6 +748,110 @@ a {
   object-position: top;
 }
 
+.phone-frame--hover-gif {
+  overflow: hidden;
+}
+
+.phone-frame--hover-gif .phone-frame__still,
+.phone-frame--hover-gif .phone-frame__gif {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  object-position: top;
+}
+
+.phone-frame--hover-gif .phone-frame__gif {
+  position: absolute;
+  inset: 7px;
+  width: calc(100% - 14px);
+  height: calc(100% - 14px);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: opacity 0.45s ease;
+}
+
+.phone-frame--hover-gif .phone-frame__still {
+  position: relative;
+  z-index: 2;
+  transition: opacity 0.35s ease;
+}
+
+.phone-frame__loader {
+  position: absolute;
+  inset: 7px;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 50% 40%, rgba(232, 197, 71, 0.12), transparent 55%),
+    linear-gradient(160deg, #1a2218, #0c100e 70%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.phone-frame__spinner {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.16);
+  border-top-color: #e8c547;
+  animation: phone-frame-spin 0.75s linear infinite;
+}
+
+@keyframes phone-frame-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hover + loading: phone screen = loader (still gizlenir) */
+.phone-frame--hover-gif.is-loading.is-hover .phone-frame__still {
+  opacity: 0;
+}
+
+.phone-frame--hover-gif.is-loading.is-hover .phone-frame__loader {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Hover + ready: GIF fills the phone screen */
+.phone-frame--hover-gif.is-ready.is-hover .phone-frame__still {
+  opacity: 0;
+}
+
+.phone-frame--hover-gif.is-ready.is-hover .phone-frame__gif {
+  opacity: 1;
+}
+
+.phone-frame--hover-gif.is-ready.is-hover .phone-frame__loader {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (hover: none) {
+  .phone-frame--hover-gif.is-loading.is-hover .phone-frame__loader,
+  .phone-frame--hover-gif.is-ready.is-hover .phone-frame__gif {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .phone-frame--hover-gif.is-loading.is-hover .phone-frame__still,
+  .phone-frame--hover-gif.is-ready.is-hover .phone-frame__still {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phone-frame__spinner {
+    animation: none;
+  }
+}
+
 .phone-frame--icon-only {
   display: grid;
   place-items: center;
