@@ -668,6 +668,48 @@ a {
 .game-tile--unal-agent {
   border-color: rgba(56, 189, 248, 0.22);
 }
+.game-tile--yogapil {
+  border-color: rgba(167, 139, 250, 0.28);
+}
+.game-tile--satranc-online {
+  border-color: rgba(212, 175, 55, 0.28);
+}
+.game-tile--trimango {
+  border-color: rgba(14, 165, 233, 0.28);
+}
+.game-tile--b2b {
+  border-color: rgba(37, 99, 235, 0.28);
+}
+.game-tile--tripay {
+  border-color: rgba(16, 185, 129, 0.28);
+}
+.game-tile--atolyeos {
+  border-color: rgba(245, 158, 11, 0.28);
+}
+.game-tile--ivd-extension {
+  border-color: rgba(220, 38, 38, 0.28);
+}
+.game-tile--maggsoft {
+  border-color: rgba(249, 115, 22, 0.28);
+}
+.game-tile--trading {
+  border-color: rgba(234, 179, 8, 0.28);
+}
+.game-tile--triasist {
+  border-color: rgba(45, 212, 191, 0.28);
+}
+.game-tile--tristok {
+  border-color: rgba(99, 102, 241, 0.28);
+}
+.game-tile--psk-duyguaydin {
+  border-color: rgba(70, 103, 89, 0.35);
+}
+.game-tile--echos-of-eldoria {
+  border-color: rgba(212, 175, 55, 0.32);
+}
+.game-tile--triqa-ai {
+  border-color: rgba(45, 180, 150, 0.32);
+}
 
 .game-tile__visual {
   display: flex;
@@ -828,6 +870,78 @@ a {
   background: rgba(56, 189, 248, 0.12);
   color: #7dd3fc;
   border-color: rgba(56, 189, 248, 0.22);
+}
+
+.game-tile--yogapil .badge {
+  background: rgba(167, 139, 250, 0.12);
+  color: #c4b5fd;
+  border-color: rgba(167, 139, 250, 0.22);
+}
+.game-tile--satranc-online .badge {
+  background: rgba(212, 175, 55, 0.12);
+  color: #f0d78c;
+  border-color: rgba(212, 175, 55, 0.22);
+}
+.game-tile--trimango .badge {
+  background: rgba(14, 165, 233, 0.12);
+  color: #7dd3fc;
+  border-color: rgba(14, 165, 233, 0.22);
+}
+.game-tile--b2b .badge {
+  background: rgba(37, 99, 235, 0.12);
+  color: #93c5fd;
+  border-color: rgba(37, 99, 235, 0.22);
+}
+.game-tile--tripay .badge {
+  background: rgba(16, 185, 129, 0.12);
+  color: #6ee7b7;
+  border-color: rgba(16, 185, 129, 0.22);
+}
+.game-tile--atolyeos .badge {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fcd34d;
+  border-color: rgba(245, 158, 11, 0.22);
+}
+.game-tile--ivd-extension .badge {
+  background: rgba(220, 38, 38, 0.12);
+  color: #fca5a5;
+  border-color: rgba(220, 38, 38, 0.22);
+}
+.game-tile--maggsoft .badge {
+  background: rgba(249, 115, 22, 0.12);
+  color: #fdba74;
+  border-color: rgba(249, 115, 22, 0.22);
+}
+.game-tile--trading .badge {
+  background: rgba(234, 179, 8, 0.12);
+  color: #fde047;
+  border-color: rgba(234, 179, 8, 0.22);
+}
+.game-tile--triasist .badge {
+  background: rgba(45, 212, 191, 0.12);
+  color: #5eead4;
+  border-color: rgba(45, 212, 191, 0.22);
+}
+.game-tile--tristok .badge {
+  background: rgba(99, 102, 241, 0.12);
+  color: #a5b4fc;
+  border-color: rgba(99, 102, 241, 0.22);
+}
+
+.game-tile--psk-duyguaydin .badge {
+  background: rgba(70, 103, 89, 0.14);
+  color: #a7c4b5;
+  border-color: rgba(70, 103, 89, 0.28);
+}
+.game-tile--echos-of-eldoria .badge {
+  background: rgba(212, 175, 55, 0.14);
+  color: #f0d78c;
+  border-color: rgba(212, 175, 55, 0.28);
+}
+.game-tile--triqa-ai .badge {
+  background: rgba(45, 180, 150, 0.14);
+  color: #5eead4;
+  border-color: rgba(45, 180, 150, 0.28);
 }
 
 .game-tile--zihin-labirenti .badge {

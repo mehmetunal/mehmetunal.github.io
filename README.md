@@ -36,6 +36,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
+| App Store | https://apps.apple.com/us/app/kartgo-online-cards/id6798578118 |
 | Pazarlama | https://mehmetunal.github.io/kartgo |
 | Marketing (EN) | https://mehmetunal.github.io/kartgo/index-en.html |
 | Destek | https://mehmetunal.github.io/kartgo/issues |
@@ -140,6 +141,27 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Terms (EN) | https://mehmetunal.github.io/unal-agent/terms-of-use-en.html |
 | Verification | https://mehmetunal.github.io/unal-agent/verify.html |
 | Marketplace | https://marketplace.visualstudio.com/items?itemName=maggsoft.unal-agent |
+
+## Yazılım ürünleri
+
+Ana sayfa katalogunda (#yogapil, #satranc-online, #trimango, #b2b, #tripay, #atolyeos, #tristok, #triasist, #trading, #maggsoft, #ivd-extension, #psk-duyguaydin, #echos-of-eldoria, #triqa-ai). Özet tablo: [store-urls.html](store-urls.html).
+
+| Ürün | Not |
+|------|-----|
+| Yogapil | Yoga/Pilates stüdyo platformu |
+| Santranç Online | Dikey mobil online satranç |
+| Trimango | [trimango.com.tr](https://trimango.com.tr) |
+| MaggHub B2B | Kapalı B2B katalog |
+| TriPay | [tripay.com.tr](https://tripay.com.tr) |
+| AtolyeOS | Çok kiracılı atölye SaaS |
+| Tristok | Stok & ön muhasebe |
+| Triasist | Yerel AI e-ticaret asistanı |
+| Trading | Altın/gümüş fiyat analizi |
+| Maggsoft | .NET framework |
+| IVD Extension | GİB toplu VKN Chrome uzantısı |
+| Psk. Duygu Aydın | [psikologduyguaydin.com](https://www.psikologduyguaydin.com) |
+| Echos of Eldoria | İzometrik aksiyon RPG (The Shattered Crown) |
+| TriQA AI | Yerel AI tarayıcı test aracı |
 
 ## Yayınlama
 
