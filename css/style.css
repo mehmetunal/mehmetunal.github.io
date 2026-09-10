@@ -656,7 +656,7 @@ html[dir="rtl"] .lang-switch select {
 
 .live-row {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
   gap: 0.85rem;
 }
 
@@ -826,6 +826,9 @@ html[dir="rtl"] .lang-switch select {
 }
 .game-tile--gunluk-asistan {
   border-color: rgba(59, 111, 204, 0.22);
+}
+.game-tile--barkaway {
+  border-color: rgba(108, 99, 255, 0.28);
 }
 .game-tile--unal-agent {
   border-color: rgba(56, 189, 248, 0.22);
@@ -1130,6 +1133,12 @@ html[dir="rtl"] .lang-switch select {
   background: rgba(59, 111, 204, 0.12);
   color: #93b4f5;
   border-color: rgba(59, 111, 204, 0.22);
+}
+
+.game-tile--barkaway .badge {
+  background: rgba(108, 99, 255, 0.14);
+  color: #a5a0ff;
+  border-color: rgba(108, 99, 255, 0.28);
 }
 
 .game-tile--unal-agent .badge {
