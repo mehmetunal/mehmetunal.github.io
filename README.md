@@ -16,6 +16,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
+| App Store | https://apps.apple.com/us/app/kral-tavla/id6800232188 |
 | Pazarlama | https://mehmetunal.github.io/tavla-online |
 | Marketing (EN) | https://mehmetunal.github.io/tavla-online/index-en.html |
 | Destek | https://mehmetunal.github.io/tavla-online/issues |
