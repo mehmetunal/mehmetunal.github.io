@@ -805,6 +805,7 @@ html[dir="rtl"] .lang-switch select {
 .game-tile--fruit-butcher {
   border-color: rgba(249, 115, 22, 0.24);
 }
+.game-tile--tank-game,
 .game-tile--tank-1990 {
   border-color: rgba(76, 175, 80, 0.24);
 }
@@ -1244,6 +1245,7 @@ html[dir="rtl"] .lang-switch select {
   border-color: rgba(13, 148, 136, 0.22);
 }
 
+.game-tile--tank-game .badge,
 .game-tile--tank-1990 .badge {
   background: rgba(76, 175, 80, 0.12);
   color: #a5d6a7;
