@@ -31,6 +31,7 @@ git add \
   pis-yedili/ \
   zamkir/ \
   zihin-labirenti/ \
+  balon-patlatma/ \
   fruit-butcher/ \
   tank-game/ \
   block-puzzle/ \
