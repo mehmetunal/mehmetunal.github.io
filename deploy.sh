@@ -32,6 +32,7 @@ git add \
   zamkir/ \
   zihin-labirenti/ \
   balon-patlatma/ \
+  yercekimi-kusu/ \
   fruit-butcher/ \
   tank-game/ \
   block-puzzle/ \

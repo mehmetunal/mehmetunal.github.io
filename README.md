@@ -75,6 +75,18 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/balon-patlatma/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/balon-patlatma/privacy-policy-en.html |
 
+## Yerçekimi Kuşu
+
+| Alan | URL |
+|------|-----|
+| Bundle ID (iOS) | `com.mehmetunal.yercekimiKusu` |
+| Package (Android) | `com.mehmetunal.yercekimi_kusu` |
+| Pazarlama | https://mehmetunal.github.io/yercekimi-kusu |
+| Marketing (EN) | https://mehmetunal.github.io/yercekimi-kusu/index-en.html |
+| Destek | https://mehmetunal.github.io/yercekimi-kusu/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/yercekimi-kusu/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/yercekimi-kusu/privacy-policy-en.html |
+
 ## Fruit Butcher
 
 | Alan | URL |

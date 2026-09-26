@@ -805,6 +805,9 @@ html[dir="rtl"] .lang-switch select {
 .game-tile--balon-patlatma {
   border-color: rgba(255, 77, 122, 0.28);
 }
+.game-tile--yercekimi-kusu {
+  border-color: rgba(255, 209, 102, 0.28);
+}
 .game-tile--fruit-butcher {
   border-color: rgba(249, 115, 22, 0.24);
 }
@@ -1233,6 +1236,12 @@ html[dir="rtl"] .lang-switch select {
   background: rgba(255, 77, 122, 0.14);
   color: #ff8fab;
   border-color: rgba(255, 77, 122, 0.28);
+}
+
+.game-tile--yercekimi-kusu .badge {
+  background: rgba(255, 209, 102, 0.14);
+  color: #ffe19a;
+  border-color: rgba(255, 209, 102, 0.28);
 }
 
 .game-tile--fruit-butcher .badge {
