@@ -802,6 +802,9 @@ html[dir="rtl"] .lang-switch select {
 .game-tile--zihin-labirenti {
   border-color: rgba(92, 225, 230, 0.22);
 }
+.game-tile--balon-patlatma {
+  border-color: rgba(255, 77, 122, 0.28);
+}
 .game-tile--fruit-butcher {
   border-color: rgba(249, 115, 22, 0.24);
 }
@@ -1224,6 +1227,12 @@ html[dir="rtl"] .lang-switch select {
   background: rgba(92, 225, 230, 0.12);
   color: #99f6f9;
   border-color: rgba(92, 225, 230, 0.22);
+}
+
+.game-tile--balon-patlatma .badge {
+  background: rgba(255, 77, 122, 0.14);
+  color: #ff8fab;
+  border-color: rgba(255, 77, 122, 0.28);
 }
 
 .game-tile--fruit-butcher .badge {

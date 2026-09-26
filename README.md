@@ -64,6 +64,17 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/zihin-labirenti/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/zihin-labirenti/privacy-policy-en.html |
 
+
+## Balon Patlatma
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/balon-patlatma |
+| Marketing (EN) | https://mehmetunal.github.io/balon-patlatma/index-en.html |
+| Destek | https://mehmetunal.github.io/balon-patlatma/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/balon-patlatma/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/balon-patlatma/privacy-policy-en.html |
+
 ## Fruit Butcher
 
 | Alan | URL |
