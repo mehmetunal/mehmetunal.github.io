@@ -27,6 +27,7 @@ git add \
   .nojekyll \
   kartgo/ \
   tavla-online/ \
+  satranc-online/ \
   pis-yedili/ \
   zamkir/ \
   zihin-labirenti/ \

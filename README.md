@@ -150,7 +150,7 @@ Ana sayfa katalogunda (#yogapil, #satranc-online, #trimango, #b2b, #tripay, #ato
 | Ürün | Not |
 |------|-----|
 | Yogapil | Yoga/Pilates stüdyo platformu |
-| Santranç Online | Dikey mobil online satranç |
+| Santranç Online | Canlı satranç & eğitimi · App Store |
 | Trimango | [trimango.com.tr](https://trimango.com.tr) |
 | MaggHub B2B | Kapalı B2B katalog |
 | TriPay | [tripay.com.tr](https://tripay.com.tr) |
