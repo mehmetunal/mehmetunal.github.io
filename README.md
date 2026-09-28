@@ -12,6 +12,16 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 Tüm URL'ler: [store-urls.html](store-urls.html)
 
+## 101 Kral Okey Online
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/kral-okey-101 |
+| Marketing (EN) | https://mehmetunal.github.io/kral-okey-101/index-en.html |
+| Destek | https://mehmetunal.github.io/kral-okey-101/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/kral-okey-101/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/kral-okey-101/privacy-policy-en.html |
+
 ## Kral Tavla
 
 | Alan | URL |

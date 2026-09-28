@@ -159,6 +159,12 @@ a.btn:hover {
   background: #000;
 }
 
+/* Landscape-only games (phone held sideways) */
+.screenshot-gallery--landscape img {
+  width: min(100%, 460px);
+  height: auto;
+}
+
 /* Issues / support page */
 .support-card {
   background: var(--bg-card);
@@ -207,6 +213,7 @@ a.btn:hover {
 .theme-pis-yedili { --accent: #1c9a64; }
 .theme-tavla-online { --accent: #b33a3a; }
 .theme-satranc-online { --accent: #d4af37; }
+.theme-kral-okey-101 { --accent: #f5b400; }
 
 .theme-crossmath .btn-primary { background: #4a90e2; color: #ffffff; }
 .theme-numberfall .btn-primary { background: #22d3ee; color: #041014; }
@@ -227,3 +234,4 @@ a.btn:hover {
 .theme-pis-yedili .btn-primary { background: #1c9a64; color: #04140c; }
 .theme-tavla-online .btn-primary { background: #b33a3a; color: #f3e6d0; }
 .theme-satranc-online .btn-primary { background: #d4af37; color: #1a1208; }
+.theme-kral-okey-101 .btn-primary { background: #f5b400; color: #3a0a10; }

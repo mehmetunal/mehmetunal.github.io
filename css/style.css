@@ -790,6 +790,25 @@ html[dir="rtl"] .lang-switch select {
 .game-tile--tavla-online {
   border-color: rgba(179, 58, 58, 0.28);
 }
+.game-tile--kral-okey-101 {
+  border-color: rgba(245, 180, 0, 0.3);
+}
+.game-tile.game-tile--landscape {
+  grid-template-columns: 220px 1fr;
+}
+@media (max-width: 900px) {
+  .game-tile.game-tile--landscape {
+    grid-template-columns: 150px 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .game-tile.game-tile--landscape {
+    grid-template-columns: 1fr;
+  }
+  .game-tile--landscape .phone-frame--landscape {
+    max-width: 320px;
+  }
+}
 .game-tile--pis-yedili {
   border-color: rgba(28, 154, 100, 0.28);
 }
@@ -918,6 +937,22 @@ html[dir="rtl"] .lang-switch select {
   aspect-ratio: 9 / 16;
   object-fit: cover;
   object-position: top;
+}
+
+/* Phone held sideways: the frame follows the landscape screenshot */
+.phone-frame--landscape {
+  padding: 5px;
+  border-radius: 18px;
+}
+
+.phone-frame--landscape::before {
+  display: none;
+}
+
+.phone-frame--landscape img {
+  aspect-ratio: auto;
+  border-radius: 14px;
+  object-position: center;
 }
 
 .phone-frame--hover-gif {
@@ -1286,6 +1321,12 @@ html[dir="rtl"] .lang-switch select {
   background: rgba(201, 162, 39, 0.16);
   color: #f0d78c;
   border-color: rgba(179, 58, 58, 0.35);
+}
+
+.game-tile--kral-okey-101 .badge {
+  background: rgba(245, 180, 0, 0.14);
+  color: #ffd766;
+  border-color: rgba(176, 18, 43, 0.4);
 }
 
 .game-tile--echoes .badge {

@@ -26,6 +26,7 @@ git add \
   README.md \
   .nojekyll \
   kartgo/ \
+  kral-okey-101/ \
   tavla-online/ \
   satranc-online/ \
   pis-yedili/ \
