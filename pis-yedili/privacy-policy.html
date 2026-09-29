@@ -15,60 +15,122 @@
 </head>
 <body>
   <h1>Gizlilik Politikası</h1>
-  <p class="muted">Son güncelleme: 10 Ağustos 2026</p>
+  <p class="muted">Son güncelleme: 29 Eylül 2026</p>
 
   <p>
-    <strong>Pis Yedili</strong> (“uygulama”, bundle / paket:
-    <code>com.pis7.pis7OnlineGame</code> / <code>com.pis7.pis7_online_game</code>),
-    Mehmet Ünal tarafından geliştirilen ücretsiz bir mobil iskambil oyunudur.
-    Misafir olarak yerel / bot maçı oynanabilir; online özellikler için kullanıcı adı
-    ile Firebase Auth girişi kullanılır.
+    <strong>Pis Yedili Online</strong> (“uygulama”, iOS paketi <code>com.pis7.pis7OnlineGame</code>,
+    Android paketi <code>com.pis7.pis7_online_game</code>), Mehmet Ünal tarafından geliştirilen
+    ücretsiz bir iskambil oyunudur. Misafir olarak botlara karşı oynayabilirsin; online masa,
+    arkadaşlar ve liderlik için hesap gerekir. Bu sayfa hangi verilerin neden kullanıldığını anlatır.
   </p>
 
   <h2>Toplanan veriler</h2>
   <ul>
-    <li><strong>Hesap (Firebase Auth):</strong> Kullanıcı adı (e-posta formatına bağlanır:
-      <code>kullaniciadi@pis7.app</code>) ve şifreyle hesap; online masa için gereklidir.
-      Misafir oturumu yalnızca cihazda tutulur.</li>
-    <li><strong>Profil (Firestore):</strong> Görünen ad, avatar, skor / XP, kozmetik envanteri
-      (deste, keçe, çerçeve) ve dengeler (jeton / elmas).</li>
-    <li><strong>Oyun verileri (Firestore):</strong> Açık masa listesi, oyuncu durumları,
-      genel masa / oyun durumu ve kısa süreli smile reaksiyonları.
-      El kartları ilgili oyuncuya özel saklanır.</li>
-    <li><strong>Yerel ayarlar:</strong> Tercihler ve misafir profili cihazda saklanabilir
-      (SharedPreferences).</li>
-    <li><strong>Reklamlar (Google AdMob):</strong> Oyun sonu geçiş (interstitial) reklamı.
-      Banner veya oyun içi sürekli reklam yoktur. AdMob cihaz tanımlayıcıları ve ölçüm
-      verisi toplayabilir. Geliştirmede test birimleri kullanılabilir.</li>
+    <li><strong>Hesap (Firebase Authentication):</strong> Kullanıcı adı ve şifreyle hesap
+      açabilirsin; kullanıcı adı teknik olarak <code>kullaniciadi@pis7.app</code> biçiminde bir
+      adrese bağlanır, gerçek e-posta istenmez. Apple veya Google ile giriş seçilirse sağlayıcının
+      paylaştığı hesap kimliği ve e-posta adresi Firebase'de tutulur (Apple ile girişte e-posta
+      gizlenebilir). Misafir oturumu yalnızca cihazda tutulur, sunucuya gönderilmez.</li>
+    <li><strong>Profil (Cloud Firestore):</strong> Kullanıcı adı, görünen ad, avatar, seviye / XP,
+      istatistikler (oynanan / kazanılan maç), çip ve elmas bakiyesi, market envanteri (deste,
+      keçe, çerçeve), günlük giriş serisi, görev ve başarım ilerlemesi. Görünen ad, avatar ve
+      puan diğer oyunculara liderlik tablosunda ve masada görünür.</li>
+    <li><strong>Çevrimiçi durumu (Firebase Realtime Database):</strong> Uygulama açıkken
+      “çevrimiçi” bilgisi ve son değişiklik zamanı. Yalnızca giriş yapmış oyunculara, arkadaş
+      listesinde, liderlik tablosunda ve masada yeşil nokta olarak görünür. Uygulamayı kapatınca
+      ya da arka plana alınca “çevrimdışı” olur.</li>
+    <li><strong>Oyun verileri:</strong> Masalar, oturduğun koltuk, masa ayarları, oyun durumu ve
+      hamle kayıtları, maç geçmişi. Elindeki kartlar yalnız sana okunabilir şekilde saklanır.</li>
+    <li><strong>Arkadaşlar ve davetler:</strong> Kullanıcı adıyla eklediğin arkadaş listen ve
+      masaya çağırma davetleri.</li>
+    <li><strong>Masada iletişim:</strong> Serbest yazılı sohbet yoktur. Yalnızca hazır mesajlar
+      (“Helal olsun!” gibi) ve smile / hediye tepkileri o masadaki oyunculara gösterilir.</li>
+    <li><strong>Bildirimler (Firebase Cloud Messaging):</strong> Bildirimlere izin verirsen
+      telefonun bildirim anahtarı (push token) hesabınla birlikte saklanır. Yalnızca biri seni
+      arkadaş olarak eklediğinde veya masaya davet ettiğinde kullanılır; reklam bildirimi
+      gönderilmez. Gönderim, Google Apps Script üzerinde çalışan küçük bir sunucu üzerinden
+      yapılır. Oynamadığın günlerde gelen hatırlatmalar telefonda planlanır, sunucuya bir şey
+      gönderilmez; Ayarlar → Hatırlatmalar'dan kapatabilirsin. Bildirim iznini telefonun
+      ayarlarından istediğin zaman kapatabilirsin.</li>
+    <li><strong>Reklamlar (Google AdMob):</strong> El aralarında ve maç sonunda geçiş reklamı,
+      istersen çip veya günlük ödülü ikiye katlamak için ödüllü reklam gösterilir; banner yoktur.
+      Reklam gösterilirken oyun durur. AdMob reklam sunmak ve ölçmek için cihaz tanımlayıcıları
+      (Android reklam kimliği), IP adresi ve reklam etkileşim verilerini işleyebilir. iPhone'da
+      uygulama izleme (ATT) izni istenmez, IDFA ile takip yapılmaz. “Reklamları kaldır”
+      satın alınırsa geçiş reklamları gösterilmez.</li>
+    <li><strong>Satın almalar:</strong> Çip paketleri ve “Reklamları kaldır” App Store / Google
+      Play üzerinden satılır. Ödeme ve kart bilgileri mağaza tarafından işlenir; uygulama kart
+      bilgisi görmez, yalnızca satın alınan ürüne göre bakiyeni günceller.</li>
+    <li><strong>Kullanım istatistikleri (Google Analytics for Firebase):</strong> Oyunu
+      geliştirmek için uygulama açılışı, açılan ekranlar, başlayan / biten maçlar, kurulan
+      masalar, gönderilen smile'lar ve izlenen ödüllü reklamlar; bunlarla birlikte kullanıcı
+      kimliği, görünen ad, misafir olup olmadığın ve cihaz / uygulama bilgisi (model, işletim
+      sistemi, sürüm, yaklaşık ülke). Satılmaz.</li>
+    <li><strong>Çökme raporları (Firebase Crashlytics):</strong> Uygulama çökerse hata kaydı,
+      cihaz modeli, işletim sistemi ve uygulama sürümü ile hesap kimliğin gönderilir. Yalnızca
+      hataları düzeltmek için kullanılır.</li>
+    <li><strong>Cihazda tutulanlar:</strong> Ses, müzik, titreşim ve hatırlatma tercihleri ile
+      misafir profili cihazda saklanır; uygulamayı silince silinir.</li>
   </ul>
 
   <h2>Toplanmayan veriler</h2>
   <ul>
-    <li>Konum, kamera, mikrofon veya kişi listesi erişimi yoktur.</li>
-    <li>Oyun sohbeti (liderlik sohbeti) kullanılmaz / toplanmaz.</li>
+    <li>Konum, kamera, mikrofon, fotoğraf veya kişi listesi erişimi yoktur.</li>
+    <li>Serbest yazılı sohbet yoktur; mesaj içeriği toplanmaz.</li>
+    <li>Kişisel veriler satılmaz.</li>
   </ul>
+
+  <h2>Çipler ve kumar</h2>
+  <p>
+    Çipler ve elmaslar yalnız oyun içinde kullanılan sanal birimlerdir. Gerçek paraya veya
+    ödüle çevrilemez, oyuncular arasında satılamaz. Uygulama gerçek para ile bahis veya kumar
+    sunmaz.
+  </p>
 
   <h2>Üçüncü taraf hizmetler</h2>
   <ul>
-    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Auth, Firestore</li>
+    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Authentication, Cloud Firestore, Realtime Database, Analytics, Crashlytics, Cloud Messaging</li>
     <li><a href="https://policies.google.com/privacy">Google AdMob</a> — reklam sunumu</li>
-    <li>Apple App Store / Google Play — uygulama dağıtımı</li>
+    <li>Google Apps Script — bildirim gönderimi ve geçici verilerin temizliği</li>
+    <li>Apple ile Giriş / Google ile Giriş — kimlik doğrulama</li>
+    <li>Apple App Store / Google Play — dağıtım ve uygulama içi satın alma</li>
+  </ul>
+
+  <h2>Saklama süresi</h2>
+  <ul>
+    <li>Terk edilmiş masalar ve oyun kayıtları 2 gün, masa davetleri 1 gün sonra otomatik silinir.</li>
+    <li>Maç geçmişinde oyuncu başına son 100 maç tutulur, daha eskileri silinir.</li>
+    <li>270 gün kullanılmayan bildirim anahtarları silinir.</li>
+    <li>Profil, arkadaş listesi, istatistikler ve bakiyeler hesabını silene kadar tutulur.</li>
   </ul>
 
   <h2>Çocuklar</h2>
-  <p>Uygulama geniş kitleye yöneliktir. Bilerek 13 yaş altından kişisel veri toplanmaz.</p>
+  <p>Uygulama 13 yaş altındaki çocuklara yönelik değildir ve bilerek onlardan kişisel veri toplanmaz.</p>
 
   <h2>Veri silme</h2>
   <p>
-    Yerel veriler uygulamayı kaldırarak silinebilir. Hesap / bulut veri silme talepleri
-    için e-posta ile iletişime geçebilirsiniz.
+    Hesabını oyunun içinden silebilirsin: Ayarlar (lobideki dişli simgesi) → Hesap →
+    <strong>Hesabımı sil</strong>. Onay verdiğinde hesabın (Firebase Authentication) ve buluttaki
+    verilerin — profilin, kullanıcı adın, bakiyelerin, istatistiklerin, liderlik kaydın, maç
+    geçmişin, arkadaş listen, sana gelen davetler, bildirim anahtarın ve çevrimiçi durumun —
+    hemen silinir; açık masalardan çıkarılırsın. Kullanıcı adı ve şifreyle girdiysen şifren,
+    Apple veya Google ile girdiysen sağlayıcının onay penceresi istenir; Apple ile girişte
+    Apple jetonu da iptal edilir.
+  </p>
+  <p>
+    Uygulamaya ulaşamıyorsan kullanıcı adınla birlikte
+    <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a> adresine yaz; talep 30 gün
+    içinde yerine getirilir. Cihazdaki veriler uygulamayı kaldırınca silinir.
   </p>
 
   <h2>Değişiklikler</h2>
-  <p>Bu politika güncellenebilir. Güncel sürüm bu sayfada yayımlanır.</p>
+  <p>Bu politika güncellenebilir. Güncel sürüm her zaman bu sayfada yayımlanır.</p>
 
   <h2>İletişim</h2>
-  <p>Sorularınız için: <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a></p>
+  <p>
+    Mehmet Ünal · <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a><br />
+    Telefon: +90 537 376 10 04
+  </p>
   <p class="muted"><a href="privacy-policy-en.html">English version</a></p>
   <p><a href="./">← Pis Yedili</a> · <a href="issues/">Destek</a></p>
 </body>
