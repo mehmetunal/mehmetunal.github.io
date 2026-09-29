@@ -15,7 +15,7 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: 28 September 2026</p>
+  <p class="muted">Last updated: 29 September 2026</p>
 
   <p>
     <strong>101 Kral Okey Online</strong> (“the app”, iOS and Android package
@@ -51,12 +51,21 @@
     <li><strong>Purchases:</strong> Chip packs are sold through the App Store / Google Play.
       Payment and card details are handled by the store; the app never sees card details and
       only records the transaction ID and product.</li>
+    <li><strong>Usage statistics (Google Analytics for Firebase):</strong> To improve the game:
+      sign-in / sign-up, screens opened, rooms created and joined, finished hands, chips earned /
+      spent and purchase events, together with the user ID and device / app information (model,
+      operating system, version, approximate country). Not used for ad tracking and not sold.</li>
+    <li><strong>Notifications (Firebase Cloud Messaging):</strong> If you allow notifications,
+      your phone's push token and platform (iOS / Android) are stored with your account. They are
+      used only for friend requests and table invitations, sent through a small server running on
+      Cloudflare Workers. You can turn notifications off in your phone's settings at any time.
+      Reminders on days you don't play are scheduled on the phone; nothing is sent to a server.</li>
   </ul>
 
   <h2>Data we do not collect</h2>
   <ul>
     <li>No access to location, camera, microphone, photos or contacts.</li>
-    <li>No Firebase Analytics or similar behavioural analytics.</li>
+    <li>Usage statistics are not used for ad tracking or sold as profiles.</li>
   </ul>
 
   <h2>Chips and gambling</h2>
@@ -68,16 +77,17 @@
 
   <h2>Third-party services</h2>
   <ul>
-    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Authentication, Realtime Database</li>
+    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Authentication, Realtime Database, Analytics, Cloud Messaging</li>
     <li><a href="https://policies.google.com/technologies/ads">Google AdMob</a> — ads and consent (UMP)</li>
+    <li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Workers</a> — sending notifications</li>
     <li>Apple App Store / Google Play — distribution and in-app purchases</li>
     <li>Google Sign-In / Sign in with Apple — authentication</li>
   </ul>
 
   <h2>Retention</h2>
   <p>
-    Abandoned rooms and finished match records are deleted regularly. Profile, friend and
-    leaderboard records are kept until you ask for your account to be deleted.
+    Abandoned rooms and finished match records are deleted regularly. Profile, friend,
+    leaderboard and notification records are kept until you delete your account.
   </p>
 
   <h2>Children</h2>
@@ -85,10 +95,19 @@
 
   <h2>Deleting data</h2>
   <p>
-    Uninstalling removes the data stored on the device. To delete your account and cloud data
-    (profile, friends, leaderboard entry), email
+    You can delete your account inside the game: <strong>Settings → Delete my account</strong>.
+    Once you confirm, your account (Firebase Authentication) and your cloud data — profile, friend
+    code, friend list, requests and invitations sent to you, leaderboard entry and push token —
+    are deleted right away, along with your name, avatar, statistics and muted players on this
+    phone. If you signed in with Google or Apple, a sign-in sheet may ask you to confirm.
+    Abandoned room and match records are removed by the regular cleanup; reports may be kept to
+    review abuse.
+  </p>
+  <p>
+    If you can't reach the app, email
     <a href="mailto:unal.m1991@gmail.com?subject=101%20Kral%20Okey%20-%20Account%20deletion">unal.m1991@gmail.com</a>
-    with your in-game display name; requests are completed within 30 days.
+    with your in-game display name; requests are completed within 30 days. Other data on the
+    device (chip balance, settings) is removed when you uninstall the app.
   </p>
 
   <h2>Changes</h2>

@@ -15,7 +15,7 @@
 </head>
 <body>
   <h1>Gizlilik Politikası</h1>
-  <p class="muted">Son güncelleme: 28 Eylül 2026</p>
+  <p class="muted">Son güncelleme: 29 Eylül 2026</p>
 
   <p>
     <strong>101 Kral Okey Online</strong> (“uygulama”, iOS ve Android paket adı
@@ -52,12 +52,23 @@
     <li><strong>Satın almalar:</strong> Çip paketleri App Store / Google Play üzerinden satılır.
       Ödeme ve kart bilgileri mağaza tarafından işlenir; uygulama kart bilgisi görmez, yalnız
       işlem kimliğini ve ürünü kaydeder.</li>
+    <li><strong>Kullanım istatistikleri (Google Analytics for Firebase):</strong> Oyunu
+      geliştirmek için giriş / kayıt, açılan ekranlar, kurulan ve katılınan odalar, biten eller,
+      kazanılan / harcanan çip ve satın alma olayları; bunlarla birlikte kullanıcı kimliği ve
+      cihaz / uygulama bilgisi (model, işletim sistemi, sürüm, yaklaşık ülke). Reklam takibi
+      için kullanılmaz, üçüncü taraflarla satılmaz.</li>
+    <li><strong>Bildirimler (Firebase Cloud Messaging):</strong> Bildirimlere izin verirsen
+      telefonun bildirim anahtarı (push token) ve platformu (iOS / Android) hesabınla birlikte
+      saklanır. Yalnız arkadaşlık istekleri ve masaya çağırma davetleri için kullanılır; gönderim
+      Cloudflare Workers üzerinde çalışan küçük bir sunucu üzerinden yapılır. İzni telefonun
+      ayarlarından istediğin zaman kapatabilirsin. Oynamadığın günlerde gelen hatırlatmalar
+      telefonda planlanır, sunucuya bir şey gönderilmez.</li>
   </ul>
 
   <h2>Toplanmayan veriler</h2>
   <ul>
     <li>Konum, kamera, mikrofon, fotoğraf veya kişi listesi erişimi yoktur.</li>
-    <li>Firebase Analytics veya benzeri davranış analitiği kullanılmaz.</li>
+    <li>Kullanım istatistikleri reklam takibi veya profil satışı için kullanılmaz.</li>
   </ul>
 
   <h2>Çipler ve kumar</h2>
@@ -68,16 +79,17 @@
 
   <h2>Üçüncü taraf hizmetler</h2>
   <ul>
-    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Authentication, Realtime Database</li>
+    <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a> — Authentication, Realtime Database, Analytics, Cloud Messaging</li>
     <li><a href="https://policies.google.com/technologies/ads">Google AdMob</a> — reklam sunumu ve rıza (UMP)</li>
+    <li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Workers</a> — bildirim gönderimi</li>
     <li>Apple App Store / Google Play — dağıtım ve uygulama içi satın alma</li>
     <li>Google ile Giriş / Apple ile Giriş — kimlik doğrulama</li>
   </ul>
 
   <h2>Saklama süresi</h2>
   <p>
-    Terk edilmiş odalar ve bitmiş maç kayıtları düzenli olarak silinir. Profil, arkadaşlık ve
-    liderlik kayıtları hesabın silinmesini isteyene kadar tutulur.
+    Terk edilmiş odalar ve bitmiş maç kayıtları düzenli olarak silinir. Profil, arkadaşlık,
+    liderlik ve bildirim kayıtları hesabını silene kadar tutulur.
   </p>
 
   <h2>Çocuklar</h2>
@@ -85,10 +97,19 @@
 
   <h2>Veri silme</h2>
   <p>
-    Cihazdaki veriler uygulamayı kaldırınca silinir. Hesabının ve buluttaki verilerinin (profil,
-    arkadaşlar, liderlik kaydı) silinmesi için oyundaki görünen adınla birlikte
+    Hesabını oyunun içinden silebilirsin: <strong>Ayarlar → Hesabımı sil</strong>. Onay verdiğinde
+    hesabın (Firebase Authentication) ve buluttaki verilerin — profilin, arkadaş kodun, arkadaş
+    listen, sana gelen istek ve davetler, liderlik kaydın ve bildirim anahtarın — hemen silinir;
+    bu telefondaki adın, avatarın, istatistiklerin ve susturduğun oyuncular da silinir. Google
+    veya Apple ile girdiysen onay için giriş penceresi açılabilir. Terk edilmiş oda ve maç
+    kayıtları düzenli temizlikte silinir; şikâyet kayıtları kötüye kullanımı incelemek için
+    saklanabilir.
+  </p>
+  <p>
+    Uygulamaya ulaşamıyorsan oyundaki görünen adınla birlikte
     <a href="mailto:unal.m1991@gmail.com?subject=101%20Kral%20Okey%20-%20Hesap%20silme">unal.m1991@gmail.com</a>
-    adresine yaz; talep 30 gün içinde yerine getirilir.
+    adresine yaz; talep 30 gün içinde yerine getirilir. Cihazdaki diğer veriler (çip bakiyesi,
+    tercihler) uygulamayı kaldırınca silinir.
   </p>
 
   <h2>Değişiklikler</h2>
