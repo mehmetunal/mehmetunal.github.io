@@ -901,6 +901,9 @@ html[dir="rtl"] .lang-switch select {
 .game-tile--triqa-ai {
   border-color: rgba(45, 180, 150, 0.32);
 }
+.game-tile--dokploy-monitor {
+  border-color: rgba(255, 148, 0, 0.3);
+}
 
 .game-tile__visual {
   display: flex;
@@ -1259,6 +1262,11 @@ html[dir="rtl"] .lang-switch select {
   background: rgba(45, 180, 150, 0.14);
   color: #5eead4;
   border-color: rgba(45, 180, 150, 0.28);
+}
+.game-tile--dokploy-monitor .badge {
+  background: rgba(255, 148, 0, 0.12);
+  color: #fdba74;
+  border-color: rgba(255, 148, 0, 0.24);
 }
 
 .game-tile--zihin-labirenti .badge {

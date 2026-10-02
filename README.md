@@ -178,7 +178,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 ## Yazılım ürünleri
 
-Ana sayfa katalogunda (#yogapil, #satranc-online, #trimango, #b2b, #tripay, #atolyeos, #tristok, #triasist, #trading, #maggsoft, #ivd-extension, #psk-duyguaydin, #echos-of-eldoria, #triqa-ai). Özet tablo: [store-urls.html](store-urls.html).
+Ana sayfa katalogunda (#yogapil, #satranc-online, #trimango, #b2b, #tripay, #atolyeos, #tristok, #triasist, #trading, #maggsoft, #ivd-extension, #psk-duyguaydin, #echos-of-eldoria, #triqa-ai, #dokploy-monitor). Özet tablo: [store-urls.html](store-urls.html).
 
 | Ürün | Not |
 |------|-----|
@@ -196,6 +196,7 @@ Ana sayfa katalogunda (#yogapil, #satranc-online, #trimango, #b2b, #tripay, #ato
 | Psk. Duygu Aydın | [psikologduyguaydin.com](https://www.psikologduyguaydin.com) |
 | Echos of Eldoria | İzometrik aksiyon RPG (The Shattered Crown) |
 | TriQA AI | Yerel AI tarayıcı test aracı |
+| Dokploy Monitor | Dokploy deployment izleme paneli |
 
 ## Yayınlama
 
