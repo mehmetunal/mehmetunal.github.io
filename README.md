@@ -101,6 +101,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
+| Google Play | https://play.google.com/store/apps/details?id=com.mehmetunal.fruit_butcher |
 | Pazarlama | https://mehmetunal.github.io/fruit-butcher |
 | Marketing (EN) | https://mehmetunal.github.io/fruit-butcher/index-en.html |
 | Destek | https://mehmetunal.github.io/fruit-butcher/issues |

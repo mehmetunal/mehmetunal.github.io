@@ -1377,6 +1377,18 @@ a.store-badge--appstore {
   color: var(--accent);
 }
 
+a.store-badge--play {
+  background: rgba(52, 168, 83, 0.14);
+  border-color: rgba(52, 168, 83, 0.35);
+  color: #86efac;
+}
+
+html[data-theme="light"] a.store-badge--play {
+  background: rgba(22, 163, 74, 0.12);
+  border-color: rgba(22, 163, 74, 0.35);
+  color: #15803d;
+}
+
 /* Footer */
 
 .site-footer {
