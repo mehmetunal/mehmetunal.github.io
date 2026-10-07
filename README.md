@@ -6,6 +6,7 @@ GitHub Pages — mobil oyun tanıtım sitesi ve AdMob `app-ads.txt`.
 
 | Alan | Let the Number Fall |
 |------|-----------|
+| Google Play | https://play.google.com/store/apps/details?id=com.mehmetunal.letthenumberfall |
 | Pazarlama | https://mehmetunal.github.io/let-the-number-fall |
 | Destek | https://mehmetunal.github.io/let-the-number-fall/issues |
 | Gizlilik | https://mehmetunal.github.io/let-the-number-fall/privacy-policy.html |
@@ -123,6 +124,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
+| Google Play | https://play.google.com/store/apps/details?id=com.mehmetunal.letthenumberfall |
 | Marketing | https://mehmetunal.github.io/let-the-number-fall |
 | Support | https://mehmetunal.github.io/let-the-number-fall/issues |
 | Privacy | https://mehmetunal.github.io/let-the-number-fall/privacy-policy.html |
