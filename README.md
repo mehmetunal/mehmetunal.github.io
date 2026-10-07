@@ -37,6 +37,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
+| Google Play | https://play.google.com/store/apps/details?id=com.pis7.pis7_online_game |
 | Pazarlama | https://mehmetunal.github.io/pis-yedili |
 | Marketing (EN) | https://mehmetunal.github.io/pis-yedili/index-en.html |
 | Destek | https://mehmetunal.github.io/pis-yedili/issues |
