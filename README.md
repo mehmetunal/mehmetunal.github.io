@@ -191,7 +191,7 @@ Ana sayfa katalogunda (#yogapil, #satranc-online, #trimango, #b2b, #tripay, #ato
 | Trimango | [trimango.com.tr](https://trimango.com.tr) |
 | MaggHub B2B | Kapalı B2B katalog |
 | TriPay | [tripay.com.tr](https://tripay.com.tr) |
-| AtolyeOS | Çok kiracılı atölye SaaS |
+| AtolyeOS | Çok kiracılı atölye SaaS · [Google Play](https://play.google.com/store/apps/details?id=com.atolyeos.atolyeos_platform) |
 | Tristok | Stok & ön muhasebe |
 | Triasist | Yerel AI e-ticaret asistanı |
 | Trading | Altın/gümüş fiyat analizi |
