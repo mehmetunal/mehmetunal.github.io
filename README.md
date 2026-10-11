@@ -17,6 +17,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
+| Google Play | https://play.google.com/store/apps/details?id=com.mehmetunal.kralokey101 |
 | Pazarlama | https://mehmetunal.github.io/kral-okey-101 |
 | Marketing (EN) | https://mehmetunal.github.io/kral-okey-101/index-en.html |
 | Destek | https://mehmetunal.github.io/kral-okey-101/issues |
@@ -28,6 +29,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Alan | URL |
 |------|-----|
 | App Store | https://apps.apple.com/us/app/kral-tavla/id6800232188 |
+| Google Play | https://play.google.com/store/apps/details?id=com.tavlaonline.tavla_online |
 | Pazarlama | https://mehmetunal.github.io/tavla-online |
 | Marketing (EN) | https://mehmetunal.github.io/tavla-online/index-en.html |
 | Destek | https://mehmetunal.github.io/tavla-online/issues |
@@ -159,6 +161,7 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 
 | Alan | URL |
 |------|-----|
+| Google Play | https://play.google.com/store/apps/details?id=com.lifereminder.life_reminder |
 | Pazarlama | https://mehmetunal.github.io/gunluk-asistan |
 | Destek | https://mehmetunal.github.io/gunluk-asistan/issues |
 | Gizlilik (TR) | https://mehmetunal.github.io/gunluk-asistan/privacy-policy.html |
