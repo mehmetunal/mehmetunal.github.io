@@ -214,6 +214,7 @@ a.btn:hover {
 .theme-tavla-online { --accent: #b33a3a; }
 .theme-satranc-online { --accent: #d4af37; }
 .theme-kral-okey-101 { --accent: #f5b400; }
+.theme-koz-krali { --accent: #d4af37; }
 
 .theme-crossmath .btn-primary { background: #4a90e2; color: #ffffff; }
 .theme-numberfall .btn-primary { background: #22d3ee; color: #041014; }
@@ -235,3 +236,4 @@ a.btn:hover {
 .theme-tavla-online .btn-primary { background: #b33a3a; color: #f3e6d0; }
 .theme-satranc-online .btn-primary { background: #d4af37; color: #1a1208; }
 .theme-kral-okey-101 .btn-primary { background: #f5b400; color: #3a0a10; }
+.theme-koz-krali .btn-primary { background: #d4af37; color: #0a2a1e; }

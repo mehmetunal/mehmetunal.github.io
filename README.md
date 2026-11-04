@@ -36,6 +36,16 @@ Tüm URL'ler: [store-urls.html](store-urls.html)
 | Gizlilik (TR) | https://mehmetunal.github.io/tavla-online/privacy-policy.html |
 | Privacy (EN) | https://mehmetunal.github.io/tavla-online/privacy-policy-en.html |
 
+## Batak: Koz Kralı
+
+| Alan | URL |
+|------|-----|
+| Pazarlama | https://mehmetunal.github.io/koz-krali |
+| Marketing (EN) | https://mehmetunal.github.io/koz-krali/index-en.html |
+| Destek | https://mehmetunal.github.io/koz-krali/issues |
+| Gizlilik (TR) | https://mehmetunal.github.io/koz-krali/privacy-policy.html |
+| Privacy (EN) | https://mehmetunal.github.io/koz-krali/privacy-policy-en.html |
+
 ## Pis Yedili
 
 | Alan | URL |

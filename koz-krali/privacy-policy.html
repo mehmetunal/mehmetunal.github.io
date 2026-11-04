@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Koz Kralı — Gizlilik Politikası</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    a { color: #1c9a64; }
+    code { font-size: 0.9em; }
+    .muted { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Gizlilik Politikası</h1>
+  <p class="muted">Son güncelleme: 4 Kasım 2026</p>
+
+  <p>
+    <strong>Batak: Koz Kralı</strong> (“uygulama”, iOS ve Android paketi <code>com.ggamgames.kozkrali</code>),
+    Mehmet Ünal tarafından geliştirilen ücretsiz bir iskambil oyunudur. Hesap açmadan, misafir olarak
+    bilgisayara karşı internetsiz oynayabilirsin; online masalar ve liderlik için hesap gerekir.
+    Bu sayfa hangi verilerin neden kullanıldığını anlatır.
+  </p>
+
+  <h2>Toplanan veriler</h2>
+  <ul>
+    <li><strong>Hesap (Firebase Authentication):</strong> Kullanıcı adı ve şifreyle hesap açabilirsin;
+      kullanıcı adı teknik olarak <code>kullaniciadi@kozkrali.app</code> biçiminde bir adrese bağlanır,
+      gerçek e-posta istenmez ve bu adrese posta gönderilmez. Apple veya Google ile giriş seçilirse
+      sağlayıcının paylaştığı hesap kimliği ve e-posta adresi Firebase'de tutulur (Apple ile girişte
+      e-posta gizlenebilir). Misafir oyuncunun profili yalnızca cihazda tutulur.</li>
+    <li><strong>Profil yedeği (Firebase Realtime Database):</strong> Giriş yaptığında görünen ad, avatar,
+      seviye / XP, istatistikler, jeton ve elmas bakiyesi, market envanteri (keçe, kart arkası, çerçeve),
+      günlük giriş serisi, görev ve başarım ilerlemesi hesabınla birlikte yedeklenir. Bu yedeği yalnızca
+      sen okuyabilirsin.</li>
+    <li><strong>Liderlik tablosu:</strong> Online maç bitince görünen adın, avatarın, kazandığın ve
+      oynadığın maç sayısı liderlik tablosuna yazılır. Bu bilgiler herkese açıktır.</li>
+    <li><strong>Online masalar:</strong> Masadaki koltuğun için hesap kimliğin, görünen adın, avatarın,
+      çerçeven ve bağlantı durumun; ayrıca masa ayarları ve oyun durumu tutulur. Görünen ad ve avatar
+      masadaki oyunculara, herkese açık masanın sahibinin adı masa listesinde görünür. Elindeki kartlar
+      diğer oyunculara gösterilmez; oyunu masa sahibinin cihazı yürüttüğü için kart verisi o cihazdan geçer.</li>
+    <li><strong>Masada iletişim:</strong> Sohbet yoktur; mesaj içeriği toplanmaz.</li>
+    <li><strong>Bildirimler (Firebase Cloud Messaging):</strong> Bildirimlere izin verirsen cihazın bildirim
+      anahtarı Firebase'de tutulur ve duyuru göndermek için kullanılır; hesabınla eşleştirilmez.
+      Oynamadığın günlerde gelen hatırlatmalar telefonda planlanır, sunucuya bir şey gönderilmez;
+      Ayarlar → Hatırlatıcılar'dan kapatabilirsin. Bildirim iznini telefonun ayarlarından istediğin
+      zaman kapatabilirsin.</li>
+    <li><strong>Reklamlar (Google AdMob):</strong> El aralarında ve maç sonunda geçiş reklamı, istersen
+      ücretsiz jeton veya günlük ödülü ikiye katlamak için ödüllü reklam gösterilir; banner yoktur.
+      AdMob ve aracılık ortakları (Unity Ads, ironSource) reklam sunmak ve ölçmek için cihaz tanımlayıcıları,
+      IP adresi ve reklam etkileşim verilerini işleyebilir. Avrupa Ekonomik Alanı ve Birleşik Krallık'ta
+      onay formu gösterilir; seçimini Ayarlar → Reklam tercihleri'nden değiştirebilirsin. iPhone'da uygulama
+      izleme (ATT) izni sorulabilir; izin vermezsen reklam kimliği (IDFA) kullanılmaz.
+      “Reklamları kaldır” satın alınırsa geçiş reklamları gösterilmez.</li>
+    <li><strong>Satın almalar:</strong> Tek satın alım “Reklamları kaldır” ürünüdür ve App Store / Google Play
+      üzerinden satılır. Ödeme ve kart bilgileri mağaza tarafından işlenir; uygulama kart bilgisi görmez,
+      yalnızca hakkın olup olmadığını cihazda saklar.</li>
+    <li><strong>Kullanım istatistikleri (Google Analytics for Firebase):</strong> Oyunu geliştirmek için
+      uygulama açılışı, başlayan / biten maçlar, oynanan mod ve izlenen ödüllü reklamlar ile cihaz / uygulama
+      bilgisi (model, işletim sistemi, sürüm, yaklaşık ülke). Hesabınla eşleştirilmez, satılmaz.</li>
+    <li><strong>Çökme raporları (Firebase Crashlytics):</strong> Uygulama çökerse hata kaydı, cihaz modeli,
+      işletim sistemi ve uygulama sürümü gönderilir. Yalnızca hataları düzeltmek için kullanılır;
+      hesap kimliğin eklenmez.</li>
+    <li><strong>Cihazda tutulanlar:</strong> Ses, müzik, titreşim, dil ve hatırlatma tercihleri ile profilin
+      cihazda saklanır; uygulamayı silince silinir.</li>
+  </ul>
+
+  <h2>Toplanmayan veriler</h2>
+  <ul>
+    <li>Konum, kamera, mikrofon, fotoğraf veya kişi listesi erişimi yoktur.</li>
+    <li>Kişisel veriler satılmaz.</li>
+  </ul>
+
+  <h2>Jeton, elmas ve kumar</h2>
+  <p>
+    Jeton ve elmas yalnız oyun içinde kullanılan sanal birimlerdir; satın alınamaz, gerçek paraya veya ödüle
+    çevrilemez, oyuncular arasında aktarılamaz. Uygulama gerçek para ile bahis veya kumar sunmaz.
+  </p>
+
+  <h2>Üçüncü taraf hizmetler</h2>
+  <ul>
+    <li>Google Firebase — Authentication, Realtime Database, Analytics, Crashlytics, Cloud Messaging</li>
+    <li>Google AdMob, Unity Ads, ironSource — reklam sunumu</li>
+    <li>Apple ile Giriş / Google ile Giriş — kimlik doğrulama</li>
+    <li>Apple App Store / Google Play — dağıtım ve uygulama içi satın alma</li>
+  </ul>
+
+  <h2>Saklama süresi</h2>
+  <ul>
+    <li>Masa kaydı, maç bitince veya masa kapanınca silinir. Bağlantı koparak yarım kalan masalar sunucuda
+      bir süre kalabilir; silinmesini e-postayla isteyebilirsin.</li>
+    <li>Profil yedeği ve liderlik kaydı hesabını silene kadar tutulur.</li>
+  </ul>
+
+  <h2>Çocuklar</h2>
+  <p>Uygulama 13 yaş altındaki çocuklara yönelik değildir ve bilerek onlardan kişisel veri toplanmaz.</p>
+
+  <h2 id="veri-silme">Veri silme</h2>
+  <p>
+    Hesabını oyunun içinden silebilirsin: lobideki oyuncu kartına dokun (veya Ayarlar → Profil) → Hesap →
+    <strong>Hesabımı sil</strong>. Onay verdiğinde hesabın (Firebase Authentication), profil yedeğin ve liderlik
+    kaydın hemen silinir, kullanıcı adın boşa çıkar. Kullanıcı adı ve şifreyle girdiysen şifren, Apple veya Google
+    ile girdiysen sağlayıcının onay penceresi istenir; Apple ile girişte Apple jetonu da iptal edilir.
+  </p>
+  <p>
+    Uygulamaya ulaşamıyorsan kullanıcı adınla birlikte
+    <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a> adresine yaz; talep 30 gün içinde yerine getirilir.
+    Cihazdaki veriler uygulamayı kaldırınca silinir.
+  </p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika güncellenebilir. Güncel sürüm her zaman bu sayfada yayımlanır.</p>
+
+  <h2>İletişim</h2>
+  <p>Mehmet Ünal · <a href="mailto:unal.m1991@gmail.com">unal.m1991@gmail.com</a></p>
+  <p class="muted"><a href="privacy-policy-en.html">English version</a></p>
+  <p><a href="./">← Koz Kralı</a> · <a href="issues/">Destek</a></p>
+</body>
+</html>

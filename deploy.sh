@@ -30,6 +30,7 @@ git add \
   tavla-online/ \
   satranc-online/ \
   pis-yedili/ \
+  koz-krali/ \
   zamkir/ \
   zihin-labirenti/ \
   balon-patlatma/ \
