@@ -202,6 +202,7 @@ a.btn:hover {
 .theme-unal-agent { --accent: #38bdf8; }
 .theme-block-puzzle,
 .theme-klaro-puzzle { --accent: #0d9488; }
+.theme-miras-puzzle { --accent: #b86a00; }
 .theme-balon-patlatma { --accent: #ff4d7a; }
 .theme-yercekimi-kusu { --accent: #ffd166; }
 .theme-fruit-butcher { --accent: #f97316; }
@@ -224,6 +225,7 @@ a.btn:hover {
 .theme-unal-agent .btn-primary { background: #38bdf8; color: #041014; }
 .theme-block-puzzle .btn-primary,
 .theme-klaro-puzzle .btn-primary { background: #0d9488; color: #ffffff; }
+.theme-miras-puzzle .btn-primary { background: #b86a00; color: #ffffff; }
 .theme-balon-patlatma .btn-primary { background: #ff4d7a; color: #ffffff; }
 .theme-yercekimi-kusu .btn-primary { background: #ffd166; color: #34240a; }
 .theme-fruit-butcher .btn-primary { background: #f97316; color: #140a04; }
